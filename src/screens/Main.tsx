@@ -1,24 +1,21 @@
-import { FormEvent } from 'react';
+import { FormEvent, useState } from 'react';
 import { InputForm } from '../components/InputForm';
+import { WeatherBlock } from '../components/WheatherBlock';
 
 function Main() {
+  const [request, setRequest] = useState('London');
   function onSubmit(e: FormEvent<HTMLFormElement>): void {
     e.preventDefault();
     const target = e.target as typeof e.target & {
       search: { value: string };
     };
-
-    fetch(
-      'https://api.weatherapi.com/v1/current.json?key=e4d5d226917a42e3a55142805210511&q=London&aqi=no'
-    )
-      .then((response) => response.json())
-      .then((response) => console.log(response));
-
-    console.log(target.search.value);
+    const q = encodeURI(target.search.value);
+    setRequest(q);
   }
   return (
     <div>
       <InputForm onSubmit={onSubmit} />
+      <WeatherBlock q={request} />
     </div>
   );
 }

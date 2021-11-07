@@ -25,3 +25,27 @@ a {
 .header {
   padding-bottom: 50px;
 }
+
+.Spinner {
+  animation: spin 1s linear infinite;
+}
+
+.elementSpinner {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.error {
+  color: red;
+}
