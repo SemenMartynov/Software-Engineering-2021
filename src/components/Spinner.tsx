@@ -1,10 +1,10 @@
 import React from 'react';
 import { FaSpinner } from 'react-icons/fa';
 
-function Spinner() {
+function Spinner({ size }: { size?: number }) {
   return (
     <div className='elementSpinner'>
-      <FaSpinner className='Spinner' size='5rem' />
+      <FaSpinner className='Spinner' size={`${size || 5}rem`} />
     </div>
   );
 }

@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import { defaultWheather } from '../utils/constants';
 import { responseInterface } from '../utils/interfaces';
 import { Spinner } from './Spinner';
+import store from '../store';
+import { observer } from 'mobx-react';
 
 interface WeatherBlockProp {
   q: string;
@@ -12,7 +14,10 @@ function WeatherBlock(prop: WeatherBlockProp) {
   const [isLoading, setIsloading] = useState(false);
   const [data, setData] = useState(defaultWheather);
   const wheather: responseInterface = data;
-  console.log(data);
+  const inStore = store.locations.includes(wheather.location.name);
+  const action = inStore
+    ? () => store.removeLocation(wheather.location.name)
+    : () => store.addLocation(wheather.location.name);
   useEffect(() => {
     setIsloading(true);
     try {
@@ -54,8 +59,13 @@ function WeatherBlock(prop: WeatherBlockProp) {
       <p>
         Precipitation amount in millimeters : {wheather.current.precip_mm}mm
       </p>
+      <button onClick={() => action()}>
+        {!inStore
+          ? 'Track wheather at this location'
+          : 'Remove tracking weather at this location'}
+      </button>
     </div>
   );
 }
 
-export { WeatherBlock };
+export default observer(WeatherBlock);
