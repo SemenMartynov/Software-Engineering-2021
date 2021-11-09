@@ -1,6 +1,6 @@
 import { FormEvent, useState } from 'react';
 import { InputForm } from '../components/InputForm';
-import { WeatherBlock } from '../components/WheatherBlock';
+import WeatherBlock from '../components/WeatherBlock';
 
 function Main() {
   const [request, setRequest] = useState('London');
