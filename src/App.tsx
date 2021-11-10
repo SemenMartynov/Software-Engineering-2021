@@ -1,6 +1,11 @@
 import { observer } from 'mobx-react';
 import { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from 'react-router-dom';
 
 import { NavLink } from './components/NavLink';
 import { Spinner } from './components/Spinner';
@@ -36,7 +41,7 @@ function App() {
           <Routes>
             <Route path='/main' element={<Main />} />
             <Route path='/tracking' element={<Tracking />} />
-            <Route path='/*' element={<>error</>} />
+            <Route path='/*' element={<Navigate to='main' />} />
           </Routes>
         </main>
       </Router>

@@ -18,3 +18,9 @@ https://docs.google.com/spreadsheets/d/1R4HSV64-3IMvDYb94hel1UgXSU401k_iz7EehmjM
 ## API:
 
 https://www.weatherapi.com/
+
+### Docker
+
+- Собрать: docker build . -t weather-service
+- Запустить: docker run -p 8080:80 weather-service
+- Открыть в браузере http://localhost:8080/
