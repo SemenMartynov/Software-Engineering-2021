@@ -2,9 +2,9 @@ import { observer } from 'mobx-react';
 import store from '../store';
 import WeatherBlock from '../components/WeatherBlock';
 
-function NonObservedTracking() {
+function Tracking() {
   if (!store.locations.length) {
-    return <div>Add something to tracking list</div>;
+    return <div className='center'>Add something to tracking list</div>;
   }
   return (
     <div className='trackingList center'>
@@ -15,6 +15,4 @@ function NonObservedTracking() {
   );
 }
 
-const Tracking = observer(NonObservedTracking);
-
-export { Tracking };
+export default observer(Tracking);

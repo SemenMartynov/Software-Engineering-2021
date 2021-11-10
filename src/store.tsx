@@ -15,6 +15,8 @@ const addLocation = (locations: string[], newLocation: string): string[] => [
 class LocationList {
   locations: string[] = [];
   initialized: boolean = false;
+  wasSearch: boolean = false;
+  lastSearch: string = 'Hanoi';
 
   constructor() {
     makeAutoObservable(this);

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { defaultWheather } from '../utils/constants';
+import { API_KEY, defaultWheather } from '../utils/constants';
 import { responseInterface } from '../utils/interfaces';
 import { Spinner } from './Spinner';
 import store from '../store';
@@ -32,7 +32,7 @@ function WeatherBlock(prop: WeatherBlockProp) {
       setIsloading(true);
       try {
         fetch(
-          `https://api.weatherapi.com/v1/current.json?key=e4d5d226917a42e3a55142805210511&q=${q}&aqi=no`
+          `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${q}&aqi=no`
         )
           .then((response) => response.json())
           .then((response) => {
