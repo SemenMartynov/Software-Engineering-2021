@@ -1,4 +1,5 @@
 import { FormEventHandler, useState } from 'react';
+import { FcSearch } from 'react-icons/fc';
 
 interface InputFormProp {
   onSubmit: FormEventHandler<HTMLFormElement>;
@@ -11,14 +12,20 @@ function InputForm(prop: InputFormProp) {
     setQuery(e.target.value);
   }
   return (
-    <form onSubmit={onSubmit}>
+    <form onSubmit={onSubmit} className='searchForm'>
       <input
+        className='searchInput'
         value={query}
         onChange={onChange}
         id='search'
         type='search'
+        placeholder='enter city name, for example Thai Binh'
       ></input>
-      <button type={'submit'}>Search</button>
+      <label htmlFor='search'>
+        <button type='submit' className='searchButton'>
+          <FcSearch className='searchIcon' />
+        </button>
+      </label>
     </form>
   );
 }
