@@ -1,9 +1,14 @@
-import { FormEvent, useState } from 'react';
+import { FormEvent, useEffect, useState } from 'react';
 import { InputForm } from '../components/InputForm';
 import WeatherBlock from '../components/WeatherBlock';
 
 function Main() {
   const [request, setRequest] = useState('Hanoi');
+  useEffect(() => {
+    navigator.geolocation.getCurrentPosition(function (position) {
+      setRequest(`${position.coords.latitude},${position.coords.longitude}`);
+    });
+  }, []);
   function onSubmit(e: FormEvent<HTMLFormElement>): void {
     e.preventDefault();
     const target = e.target as typeof e.target & {
