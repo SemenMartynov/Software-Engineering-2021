@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import { NavLink } from './components/NavLink';
 import { Spinner } from './components/Spinner';
-import { Main } from './screens/Main';
-import { Tracking } from './screens/Tracking';
+import Main from './screens/Main';
+import Tracking from './screens/Tracking';
 import store from './store';
 
 function App() {

@@ -19,11 +19,11 @@ function InputForm(prop: InputFormProp) {
         onChange={onChange}
         id='search'
         type='search'
-        placeholder='enter city name, for example Thai Binh'
+        placeholder='Thai Binh'
       ></input>
       <label htmlFor='search'>
         <button type='submit' className='searchButton'>
-          <FcSearch className='searchIcon' />
+          <FcSearch className='searchIcon' aria-label='search' />
         </button>
       </label>
     </form>
