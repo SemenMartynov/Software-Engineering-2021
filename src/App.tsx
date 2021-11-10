@@ -23,13 +23,16 @@ function App() {
     <div className='container'>
       <Router>
         <header className='header'>
-          <h1>Watch temprerature in location service</h1>
+          <h1>Watch temperature in location service</h1>
           <div className='linkBlock'>
             <NavLink to='/main'>Main</NavLink>
-            <NavLink to='/tracking'>Tracking</NavLink>
+            <NavLink to='/tracking'>
+              Tracking{' '}
+              <div className='trackingNumber'>{store.locations.length}</div>
+            </NavLink>
           </div>
         </header>
-        <main>
+        <main className='main'>
           <Routes>
             <Route path='/main' element={<Main />} />
             <Route path='/tracking' element={<Tracking />} />

@@ -7,9 +7,9 @@ function NonObservedTracking() {
     return <div>Add something to tracking list</div>;
   }
   return (
-    <div>
+    <div className='trackingList center'>
       {store.locations.map((location) => (
-        <WeatherBlock q={location} />
+        <WeatherBlock q={location} isFull={false} key={location} />
       ))}
     </div>
   );
