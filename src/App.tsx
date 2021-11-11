@@ -1,8 +1,10 @@
 import { observer } from "mobx-react";
+import { useState } from "react";
 import "./App.css";
 import store, { TemperatureKeys } from "./store";
 
 function App() {
+  const [isValid, setIsValid] = useState<boolean>(true);
   function transformTemperature(key: TemperatureKeys, value: number) {
     switch (key) {
       case TemperatureKeys.C:
@@ -36,7 +38,7 @@ function App() {
       <label htmlFor="Celcium">
         Celcium
         <input
-          type="text"
+          type="number"
           id="Celcium"
           value={transformTemperature(TemperatureKeys.C, store.currentValue)}
           onChange={(e) => {
@@ -47,7 +49,7 @@ function App() {
       <label htmlFor="Farenheit">
         Farenheit
         <input
-          type="text"
+          type="number"
           id="Farenheit"
           value={transformTemperature(TemperatureKeys.F, store.currentValue)}
           onChange={(e) => {
@@ -58,7 +60,7 @@ function App() {
       <label htmlFor="Kelvin">
         Kelvin
         <input
-          type="text"
+          type="number"
           id="Kelvin"
           value={transformTemperature(TemperatureKeys.K, store.currentValue)}
           onChange={(e) => {
