@@ -3,6 +3,7 @@ import { makeAutoObservable } from "mobx";
 export enum TemperatureKeys {
   C = "C",
   F = "F",
+  K = "K",
 }
 
 class TemperatureStore {
