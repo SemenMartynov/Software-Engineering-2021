@@ -4,7 +4,6 @@ import "./App.css";
 import store, { TemperatureKeys } from "./store";
 
 function App() {
-  const [isValid, setIsValid] = useState<boolean>(true);
   function transformTemperature(key: TemperatureKeys, value: number) {
     switch (key) {
       case TemperatureKeys.C:
