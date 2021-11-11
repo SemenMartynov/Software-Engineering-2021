@@ -1,28 +1,22 @@
-# Software-Engineering-2021
-Peter the Great St. Petersburg Polytechnic University: Software Engineering course 2021
+# Веб приложение для конвертации температур
 
-Feel free to ask all your questions on the course's telegram channel.
+## 1 экран:
 
-## 80101
+- Форма i : указываем температуру в системе N
+- Форма i+1 : показывает температуру в системе M
 
-- Name -- URL
-- Name -- URL
--
+## Задачи:
 
-## 80202
+https://docs.google.com/spreadsheets/d/17WCuGWmdy8AWWh7hM4yuJ_wCs6Ei9Ee8VOFx8M1PnBo/edit#gid=0
 
--
--
--
+### Технологии:
 
-## 80203
+- React
+- TypeScript
+- mobX
 
--
--
--
+### Docker
 
-## 80201
-
--
--
--
+- Собрать: docker build . -t weather-service
+- Запустить: docker run -p 8080:80 weather-service
+- Открыть в браузере http://localhost:8080/
