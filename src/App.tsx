@@ -1,5 +1,4 @@
 import { observer } from "mobx-react";
-import React, { useState } from "react";
 import "./App.css";
 import store, { TemperatureKeys } from "./store";
 
@@ -10,12 +9,26 @@ function App() {
         if (store.currentKey === TemperatureKeys.C) {
           return value;
         }
-        return ((value - 32) / 1.8).toFixed(3);
+        if (store.currentKey === TemperatureKeys.F) {
+          return ((value - 32) / 1.8).toFixed(3);
+        }
+        return (value - 273.15).toFixed(3);
       case TemperatureKeys.F:
         if (store.currentKey === TemperatureKeys.F) {
           return value;
         }
-        return (value * 1.8 + 32).toFixed(3);
+        if (store.currentKey === TemperatureKeys.C) {
+          return (value * 1.8 + 32).toFixed(3);
+        }
+        return (value * 1.8 - 241.15).toFixed(3);
+      case TemperatureKeys.K:
+        if (store.currentKey === TemperatureKeys.K) {
+          return value;
+        }
+        if (store.currentKey === TemperatureKeys.F) {
+          ((value - 32) / 1.8 + 273.15).toFixed(3);
+        }
+        return (value + 273.15).toFixed(3);
     }
   }
   return (
@@ -27,7 +40,6 @@ function App() {
           id="Celcium"
           value={transformTemperature(TemperatureKeys.C, store.currentValue)}
           onChange={(e) => {
-            console.log(store.currentKey);
             store.setTemperature(TemperatureKeys.C, +e.target.value);
           }}
         ></input>
@@ -39,8 +51,18 @@ function App() {
           id="Farenheit"
           value={transformTemperature(TemperatureKeys.F, store.currentValue)}
           onChange={(e) => {
-            console.log(store.currentKey);
             store.setTemperature(TemperatureKeys.F, +e.target.value);
+          }}
+        ></input>
+      </label>
+      <label htmlFor="Kelvin">
+        Kelvin
+        <input
+          type="text"
+          id="Kelvin"
+          value={transformTemperature(TemperatureKeys.K, store.currentValue)}
+          onChange={(e) => {
+            store.setTemperature(TemperatureKeys.K, +e.target.value);
           }}
         ></input>
       </label>
