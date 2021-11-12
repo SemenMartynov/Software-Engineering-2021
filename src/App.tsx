@@ -1,8 +1,13 @@
 import { observer } from "mobx-react";
+import { useState } from "react";
 import "./App.css";
 import store, { TemperatureKeys } from "./store";
 
 function App() {
+  const [state, setState] = useState({
+    key: TemperatureKeys.C,
+    value: "0",
+  });
   function transformTemperature(key: TemperatureKeys, value: number) {
     switch (key) {
       case TemperatureKeys.C:
@@ -36,33 +41,66 @@ function App() {
       <label htmlFor="Celcium">
         Celcium
         <input
-          type="text"
+          type="number"
           id="Celcium"
-          value={transformTemperature(TemperatureKeys.C, store.currentValue)}
+          value={
+            state.key === TemperatureKeys.C
+              ? state.value
+              : transformTemperature(TemperatureKeys.C, store.currentValue)
+          }
           onChange={(e) => {
-            store.setTemperature(TemperatureKeys.C, +e.target.value);
+            setState({ key: TemperatureKeys.C, value: e.target.value });
+          }}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              if (!isNaN(+state.value)) {
+                store.setTemperature(state.key, +state.value);
+              }
+            }
           }}
         ></input>
       </label>
       <label htmlFor="Farenheit">
         Farenheit
         <input
-          type="text"
+          type="number"
           id="Farenheit"
-          value={transformTemperature(TemperatureKeys.F, store.currentValue)}
+          value={
+            state.key === TemperatureKeys.F
+              ? state.value
+              : transformTemperature(TemperatureKeys.F, store.currentValue)
+          }
           onChange={(e) => {
-            store.setTemperature(TemperatureKeys.F, +e.target.value);
+            setState({ key: TemperatureKeys.F, value: e.target.value });
+          }}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              if (!isNaN(+state.value)) {
+                store.setTemperature(state.key, +state.value);
+              }
+            }
           }}
         ></input>
       </label>
       <label htmlFor="Kelvin">
         Kelvin
         <input
-          type="text"
+          type="number"
           id="Kelvin"
-          value={transformTemperature(TemperatureKeys.K, store.currentValue)}
+          value={
+            state.key === TemperatureKeys.K
+              ? state.value
+              : transformTemperature(TemperatureKeys.K, store.currentValue)
+          }
           onChange={(e) => {
-            store.setTemperature(TemperatureKeys.K, +e.target.value);
+            setState({ key: TemperatureKeys.K, value: e.target.value });
+          }}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              if (!isNaN(+state.value)) {
+                store.setTemperature(state.key, +state.value);
+              }
+            }
           }}
         ></input>
       </label>
