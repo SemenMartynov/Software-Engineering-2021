@@ -38,14 +38,14 @@ function App() {
     }
   }
   return (
-    <div className="App">
-      <header>
+    <>
+      <header className="header">
         <h1>Temperature Convertion Service</h1>
       </header>
       <main>
-        <div>
-          <label htmlFor="Celcium">
-            Celcium
+        <div className="inputBlock">
+          <div className="temperatureField">
+            <label htmlFor="Celcium">Celcium</label>
             <input
               type="number"
               id="Celcium"
@@ -65,9 +65,9 @@ function App() {
                 }
               }}
             ></input>
-          </label>
-          <label htmlFor="Farenheit">
-            Farenheit
+          </div>
+          <div className="temperatureField">
+            <label htmlFor="Farenheit">Farenheit</label>
             <input
               type="number"
               id="Farenheit"
@@ -87,9 +87,9 @@ function App() {
                 }
               }}
             ></input>
-          </label>
-          <label htmlFor="Kelvin">
-            Kelvin
+          </div>
+          <div className="temperatureField">
+            <label htmlFor="Kelvin">Kelvin</label>
             <input
               type="number"
               id="Kelvin"
@@ -109,11 +109,11 @@ function App() {
                 }
               }}
             ></input>
-          </label>
+          </div>
         </div>
         <Stats />
       </main>
-    </div>
+    </>
   );
 }
 

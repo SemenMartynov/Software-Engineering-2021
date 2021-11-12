@@ -1,1 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap");
 
+body {
+  font-family: "Yuji Boku", serif;
+}
+
+input {
+  font-family: "Yuji Boku", serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.inputBlock {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.inputLabel {
+  padding-right: 20px;
+}
+
+.stats {
+  text-align: center;
+}
+
+.temperatureField {
+  display: flex;
+  gap: 5px;
+}

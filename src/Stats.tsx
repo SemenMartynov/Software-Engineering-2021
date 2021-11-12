@@ -3,7 +3,7 @@ import store from "./store";
 
 function Stats() {
   return (
-    <div>
+    <div className="stats">
       <h2>Statistic</h2>
       <p>Total convertions: {store.numberOfConverts}</p>
       <p>From Celcium to another: {store.convertC}</p>
