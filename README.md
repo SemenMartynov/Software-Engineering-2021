@@ -17,6 +17,11 @@ https://docs.google.com/spreadsheets/d/17WCuGWmdy8AWWh7hM4yuJ_wCs6Ei9Ee8VOFx8M1P
 
 ### Docker
 
-- Собрать: docker build . -t weather-service
-- Запустить: docker run -p 8080:80 weather-service
+- Собрать: docker build . -t temperature-service
+- Запустить: docker run -p 8080:80 temperature-service
 - Открыть в браузере http://localhost:8080/
+
+### Использование
+
+- Ввести значение температуры в поле с исходной системой
+- Нажать enter
