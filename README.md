@@ -11,7 +11,7 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80202
 
--
+- Сухачев Никита - https://github.com/SukhachevN/Software-Engineering-2021/tree/dev
 -
 -
 
