@@ -18,7 +18,7 @@ Feel free to ask all your questions on the course's telegram channel.
 ## 80203
 
 -
-- Никифоров Тимофей - https://github.com/nikiforovta/-Software-Engineering-lab1
+- Никифоров Тимофей - https://github.com/nikiforovta/Software-Engineering-lab1
 -
 
 ## 80201
