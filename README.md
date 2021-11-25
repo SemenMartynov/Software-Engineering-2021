@@ -18,7 +18,7 @@ Feel free to ask all your questions on the course's telegram channel.
 ## 80203
 
 -
--
+- Невоструева Яна - https://github.com/NevostruevaYana/CurrencyConverter
 -
 
 ## 80201
