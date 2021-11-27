@@ -5,7 +5,7 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80101
 
-- Name -- URL
+- Джужуев Эдуард -- https://github.com/Shadow-Haund/Software-Engineering-2021/tree/issue_5_docker
 - Name -- URL
 -
 
