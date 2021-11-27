@@ -11,15 +11,16 @@ if len(name) > 16:
     nickname = input("Username: ")
 host_type = input("Type IP adress: ")
 
-hostS = 'networkslab-ivt.ftp.sh'
-hostL = '127.0.0.1'
+hostL = 'localhost'
 port = 55555
 file_end = '37e3f4a8-b8c9-4f22-ad4d-8bd81e686822'
 length_of_message = len(f"file{file_end}")
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 if not host_type:
+    print(f"Connecting to {hostL}")
     client.connect((hostL, 55555))
 else:
+    print(f"Connecting to {host_type}")
     client.connect((host_type, 55555))
 
 
