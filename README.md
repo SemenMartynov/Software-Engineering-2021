@@ -18,7 +18,7 @@ Feel free to ask all your questions on the course's telegram channel.
 ## 80203
 
 -
--
+Джеус Андрей - https://github.com/MickeyMouseMouse/Software-Engineering-lab1
 -
 
 ## 80201
