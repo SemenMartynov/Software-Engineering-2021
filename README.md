@@ -12,8 +12,11 @@ Feel free to ask all your questions on the course's telegram channel.
 ## 80202
 
 -
--
--
+- Шерепа Никита -- https://github.com/beatHunteRcode/ZoneNewsDiscordBot.git
+- 
+- !!!
+- ДЛЯ ПРОВЕРКИ НЕОБХОДИМО ПЕРЕЙТИ НА ВЕТКУ `zone_news_discord_bot_docker` И ДЕЛАТЬ `docker build` НА НЕЙ
+- !!!
 
 ## 80203
 
