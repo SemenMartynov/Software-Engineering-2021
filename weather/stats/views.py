@@ -36,6 +36,10 @@ def index(request):
             'period_temp_avg': statistic[2],
             'years_stats': statistic[3],
             'close_date': statistic[4],
+            'clear_days': statistic[5],
+            'frequent_prec': statistic[6],
+            'wind_direction_avg': statistic[7],
+            'wind_speed_avg': statistic[8],
             'records_count': records.count()
         })
     return render(request, 'stats/index.html', {'form': form})

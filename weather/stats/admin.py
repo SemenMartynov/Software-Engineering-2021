@@ -11,7 +11,8 @@ class CityAdmin(admin.ModelAdmin):
 
 @admin.register(Record)
 class RecordAdmin(admin.ModelAdmin):
-    list_display = ('id', 'city', 'date', 'temperature')
-    search_fields = ('city', 'date')
-    list_filter = ('city', 'date')
+    list_display = ('id', 'city', 'date', 'temperature', 'wind_direction',
+                    'wind_speed', 'status', 'precipitation')
+    search_fields = ('city', 'date', 'status')
+    list_filter = ('city', 'date', 'status')
     empty_value_display = '---'
