@@ -7,7 +7,7 @@ Feel free to ask all your questions on the course's telegram channel.
 
 - Name -- URL
 - Name -- URL
--
+- Maksem Vasiliy - https://github.com/maksem-va/ProgEngineering
 
 ## 80202
 
