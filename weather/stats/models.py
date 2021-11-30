@@ -22,6 +22,11 @@ class Record(models.Model):
                              related_name='city_record')
     date = models.DateTimeField('Дата и время')
     temperature = models.FloatField('Температура', null=True)
+    wind_direction = models.FloatField('Направление ветра в градусах',
+                                       null=True)
+    wind_speed = models.IntegerField('Скорость ветра в м/с')
+    status = models.CharField('Погода', max_length=50, null=True)
+    precipitation = models.FloatField('Атмосферные осадки в мм')
 
     class Meta:
         verbose_name = 'Запись'
