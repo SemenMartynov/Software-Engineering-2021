@@ -1,10 +1,48 @@
+import csv
 import datetime as dt
+import os
 
-from django.shortcuts import get_object_or_404, render
+from django.conf import settings
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import get_object_or_404, render, redirect
 
 from .forms import StatisticForm
-from .models import City
+from .models import City, Record
 from .utils import get_statistics
+
+
+@login_required
+def load_data(request):
+    """
+    Creating Model-Based Records :model:`stats.Record`.
+    """
+    temp_data = []
+    object_id = (Record.objects.latest('id').id + 1
+                 if Record.objects.all().exists()
+                 else 0)
+    for filename in os.listdir(settings.LOAD_DATA_DIR):
+        city, created = City.objects.get_or_create(name=filename[:-4])
+        with open(
+                f'{settings.LOAD_DATA_DIR}/{filename}',
+                encoding='utf-8'
+        ) as csvfile:
+            reader = csv.reader(csvfile)
+            for row in reader:
+                if row[1] == '':
+                    continue
+                temp_data.append(Record(
+                    id=object_id,
+                    city=city,
+                    date=dt.datetime.strptime(row[0], "%d.%m.%Y %H:%M"),
+                    temperature=float(row[1]),
+                    wind_direction=float(row[2]) if row[2] != '' else None,
+                    wind_speed=int(row[3]) if row[3] != '' else 0,
+                    status=row[4] if row[4] != '' else None,
+                    precipitation=float(row[5])
+                ))
+                object_id += 1
+    Record.objects.bulk_create(temp_data, batch_size=999)
+    return redirect('stats:index')
 
 
 def index(request):
