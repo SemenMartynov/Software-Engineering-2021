@@ -11,13 +11,13 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80202
 
--
+- Рубан Станислав — https://gitlab.com/pupptmstr/ass
 -
 -
 
 ## 80203
 
--
+- Курняков Пётр — https://gitlab.com/pupptmstr/ass
 -
 -
 
