@@ -5,24 +5,4 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80101
 
-- Name -- URL
-- Name -- URL
--
-
-## 80202
-
--
--
--
-
-## 80203
-
--
--
--
-
-## 80201
-
--
--
--
+- Дмитрий Загороднов https://github.com/DmitryZagorodnov/btc_to_rub_converter
