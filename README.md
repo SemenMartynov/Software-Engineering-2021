@@ -11,7 +11,7 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80202
 
--
+- Смирнов Лев -- https://github.com/Lion-Hunter/UsdToEurConverter
 -
 -
 
