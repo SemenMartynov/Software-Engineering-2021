@@ -17,7 +17,7 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80203
 
-https://github.com/Victorov-I-A/CurrencyConverter
+- Викторов Илья: https://github.com/Victorov-I-A/CurrencyConverter
 -
 -
 
