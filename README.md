@@ -19,7 +19,7 @@ Feel free to ask all your questions on the course's telegram channel.
 
 -
 -
-- Медведев Данил - https://github.com/dVede/ConsoleWeatherApp/blob/master/src/main/kotlin/Main.kt
+- Медведев Данил - https://github.com/dVede/ConsoleWeatherApp
 
 ## 80201
 
