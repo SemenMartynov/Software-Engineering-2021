@@ -11,7 +11,7 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80202
 
--
+- Fedorov Sergey: https://github.com/Joker707/SE_converter
 -
 -
 
