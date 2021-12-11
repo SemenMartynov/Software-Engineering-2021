@@ -23,6 +23,6 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80201
 
--
+- Пучкина Виктория -- https://github.com/Juniell/USD-EUR-converter
 -
 -
