@@ -1,28 +1,11 @@
-# Software-Engineering-2021
-Peter the Great St. Petersburg Polytechnic University: Software Engineering course 2021
+## TCP чат
 
-Feel free to ask all your questions on the course's telegram channel.
+При запуске требуется указать IP. В случае если его не указать будет установлен адресс 127.0.0.1
 
-## 80101
+## Задачи
 
-- Name -- URL
-- Name -- URL
--
+https://docs.google.com/spreadsheets/d/1wtQeUXu4-UEeIVv6V4X6dm9YjaZOv9awZYOt01CiM_E/edit?usp=sharing
 
-## 80202
+## Технологии
 
--
--
--
-
-## 80203
-
--
--
--
-
-## 80201
-
--
--
--
+Python
