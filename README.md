@@ -17,9 +17,9 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80203
 
--
--
--
+- Филимонов Артем -- https://github.com/BigArtemka/Kanye-Quote-And-Cat-Picture-API/tree/release/1.0.0
+- 
+- 
 
 ## 80201
 
