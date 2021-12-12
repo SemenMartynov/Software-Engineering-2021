@@ -6,7 +6,7 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80203
 - Джеус Андрей
-    - https://github.com/MickeyMouseMouse/Software-Engineering-lab1
+    - Исправленная версия: https://github.com/MickeyMouseMouse/Software-Engineering-lab1
     - HW1:
         * Status: NOT Done (Nov 28)
         * Notes:
