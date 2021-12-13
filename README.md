@@ -1,28 +1,26 @@
-# Software-Engineering-2021
-Peter the Great St. Petersburg Polytechnic University: Software Engineering course 2021
+# Веб приложение для просмотра информации о погоде в заданной локации
 
-Feel free to ask all your questions on the course's telegram channel.
+## 2 экрана:
 
-## 80101
+- Форма где можно указать локацию / координаты / почтовый индекс (Только US,UK,Canada) / ip адрес
+- Список локаций для отслеживания
 
-- Name -- URL
-- Name -- URL
--
+## Задачи:
 
-## 80202
+https://docs.google.com/spreadsheets/d/1R4HSV64-3IMvDYb94hel1UgXSU401k_iz7EehmjMnew/edit?usp=sharing
 
-- Сухачев Никита - https://github.com/SukhachevN/Software-Engineering-2021/tree/dev
--
--
+### Технологии:
 
-## 80203
+- React
+- TypeScript
+- mobX
 
--
--
--
+## API:
 
-## 80201
+https://www.weatherapi.com/
 
--
--
--
+### Docker
+
+- Собрать: docker build . -t weather-service
+- Запустить: docker run -p 8080:80 weather-service
+- Открыть в браузере http://localhost:8080/
