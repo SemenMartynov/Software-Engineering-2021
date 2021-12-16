@@ -95,9 +95,9 @@ function WeatherBlock(prop: WeatherBlockProp) {
         <p>Wind direction: {wheather.current.wind_dir}</p>
         <p>Percentage of cloud: {wheather.current.cloud}%</p>
         <p>Percentage of humidity: {wheather.current.humidity}%</p>
-        <p>Pressure in millibars : {wheather.current.pressure_mb}mb</p>
+        <p>Pressure in millibars: {wheather.current.pressure_mb}mb</p>
         <p>
-          Precipitation amount in millimeters : {wheather.current.precip_mm}mm
+          Precipitation amount in millimeters: {wheather.current.precip_mm}mm
         </p>
       </div>
     </div>
