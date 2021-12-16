@@ -24,3 +24,10 @@ https://www.weatherapi.com/
 - Собрать: docker build . -t weather-service
 - Запустить: docker run -p 8080:80 weather-service
 - Открыть в браузере http://localhost:8080/
+
+### Тестирование
+* main 
+[![CI](https://github.com/SukhachevN/Software-Engineering-2021/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/SukhachevN/Software-Engineering-2021/actions/workflows/main.yml)
+* dev 
+[![CI](https://github.com/SukhachevN/Software-Engineering-2021/actions/workflows/main.yml/badge.svg?branch=dev)](https://github.com/SukhachevN/Software-Engineering-2021/actions/workflows/main.yml)
+

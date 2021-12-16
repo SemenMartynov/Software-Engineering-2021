@@ -1,0 +1,41 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches:  
+    - main 
+    - dev
+  pull_request:
+    branches:
+    - main
+    - dev
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+   # install dependencies and run test command
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+
+      # 1: setup node
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      # 2: Checkout repository in the CWD
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # 3: install dependencies
+      - name: Install dependencies
+        run: yarn install
+      
+      # 4: run test command
+      - name: Run test command
+        run: yarn test
