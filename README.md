@@ -23,3 +23,11 @@ https://docs.google.com/spreadsheets/d/17WCuGWmdy8AWWh7hM4yuJ_wCs6Ei9Ee8VOFx8M1P
 
 - Ввести значение температуры в поле с исходной системой
 - Нажать enter
+
+### Тестирование
+
+* main - 
+[![Testing](https://github.com/PhamBinh98/Software-Engineering-2021/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/PhamBinh98/Software-Engineering-2021/actions/workflows/main.yml)
+
+* dev - 
+[![Testing](https://github.com/PhamBinh98/Software-Engineering-2021/actions/workflows/main.yml/badge.svg?branch=dev)](https://github.com/PhamBinh98/Software-Engineering-2021/actions/workflows/main.yml)
