@@ -6,6 +6,7 @@ Feel free to ask all your questions on the course's telegram channel.
 ## 80101
 
 - Фам Тхи Тхань Бинь
+    - https://github.com/PhamBinh98/Software-Engineering-2021
     - HW1:
         * Status: Done (Nov 13)
         * Notes:
@@ -14,6 +15,11 @@ Feel free to ask all your questions on the course's telegram channel.
             - Необходимо исправить `.gitconfig`
             - Декомпозиция задач есть, но это декомпозиция с точки зрения инженера. Бизнесу из описания задачи должно быть понятно, какую пользу несёт эта фича!
             - Линковка задач и коммитов сделана неожиданно))) Я предполагал обратное, т.к. в комментарии к коммиту указывать номер проблемы, которая решается этим коммитом.
+    - HW2:
+        * Status: Done (Dec 16)
+        * Notes:
+            - `feature`-ветки не должны порождаться от `main`, для этого есть `develop`
+            - `develop` не должен мерджиться в `main`, для этого есть `release`
 - Дзюба Богдан
     - HW1:
         * Status: NOT Done (Nov 30)
@@ -64,7 +70,10 @@ Feel free to ask all your questions on the course's telegram channel.
             - Всё те же замечания, что я писал Фам Тхи Тхань Бинь: нужен коммит в `main` (раз он есть), префикс для `feature/` веток, настроить `.gitconfig`
             - В задачах заметил "Рефакторинг". Такие задачи плохо продаются бизнесу, т.к. не несут коммерческой ценности. На эту тему можно почитать Фаулера, он описывает принцип бойскаутов для решения таких ситуаций.
             - Не стоит миксовать русский и английский языки при комментировании коммитов.
-
+    - HW2:
+        * Status: Done (Dec 16)
+        * Notes:
+            - Опять всё как у Фам Тхи Тхань Бинь
 - Lunyak.NA
     - https://bitbucket.org/luna_koly/btc2btsconverter/src/main/
     - HW1:
