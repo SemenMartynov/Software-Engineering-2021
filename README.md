@@ -317,7 +317,7 @@ Feel free to ask all your questions on the course's telegram channel.
     - HW2:
         * Status: NOT Done (Nov 30)
         * Notes:
-            - Добавил тесты и поправил YML-файл
+            - Добавил unit-тесты и поправил YML-файл
 - Ulyanov Andrey
     - https://github.com/AndreyUlyanov/temperature-converter
     - HW1:
