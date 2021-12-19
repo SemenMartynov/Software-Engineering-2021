@@ -32,7 +32,13 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Ветка `develop` не должна мерджиться в `master`
             - Управляеть версиями лучше через теги в `git`, либо в `release` ветке
-
+- Загороднов Дмитрий
+    - https://github.com/DmitryZagorodnov/btc_to_rub_converter
+    - HW1:
+        * Status: Done (Dec 1)
+        * Notes:
+            - Не должно быть прямых коммитов в `master` (`2c79d36`, `8c7f2a2`)
+            - Некоторые ветки (9, 7 ,12) форкнуты не от `master`
 
 ## 80202
 
@@ -61,6 +67,7 @@ Feel free to ask all your questions on the course's telegram channel.
 
 - Lunyak.NA
     - https://bitbucket.org/luna_koly/btc2btsconverter/src/main/
+    - HW1:
         * Status: Done (Nov 13)
         * Notes:
             - Линковать коммит достаточно с `issue`. Линковка на `PR` нужна скорее для ситуации, когда там была допущена какая-то ошибка, и новый коммит это фиксит
@@ -68,6 +75,7 @@ Feel free to ask all your questions on the course's telegram channel.
             - Нельзя переписывать историю публичных веток, тем более форсом ломать упорядоченность коммитов (https://bitbucket.org/luna_koly/btc2btsconverter/commits/branch/main). Все коммиты должны образовывать односвязный список.
 - Ткаченко Даниил
     - https://github.com/Daniil1380/calculator
+    - HW1:
         * Status: Done (Nov 27)
         * Notes:
             - `.mnv` в `.gitignore`.
@@ -76,11 +84,13 @@ Feel free to ask all your questions on the course's telegram channel.
             - Для реализации функционала следует использовать ветки с префиксом `feature/`
 - Шерепа Никита
     - https://github.com/beatHunteRcode/ZoneNewsDiscordBot
+    - HW1:
         * Status: NOT Done (Nov 28)
         * Notes:
             - Не выполнены требования по депомозиции и управлению ветками
 - Савельев Дмитрий
     - https://github.com/KarrokBeorna/YoutubeGifBot
+    - HW1:
         * Status: Done (Nov 29)
         * Notes:
             - Ветки `master` и `develop` перепутаны местами: `feature` векти мерджатся в `develop`.
@@ -88,6 +98,7 @@ Feel free to ask all your questions on the course's telegram channel.
             - 'API-key' нельзя хардкодить, его нужно передавать как переменную окружения
 - Крынский Павел
     - https://github.com/flomikoon/Currency-Conversion
+    - HW1:
         * Status: Done (Nov 29)
         * Notes:
             - Ветка `feature` не является должноживущей. Она создаётся под каждую фичу, и закрывается после мерджа.
@@ -96,12 +107,45 @@ Feel free to ask all your questions on the course's telegram channel.
             - Служебные файлы (`.idea`) нужно закрывать от индексирования через `.gitignore`
 - Рубан Станислав
     - https://gitlab.com/pupptmstr/ass
+    - HW1:
         * Status: Done (Nov 30)
         * Notes:
             - Все чувствительные данные (пароли к БД, токены доступа к API) не должны попадать в репозиторий. Для этого нужно использовать либо сервисы управления серкретами, либо сделать передачу через переменные окружения
             - не все фичи доведены до мерджа с основной веткой
             - не очень понимаю, что такое `.run`, но подозреваю что это должно быть за `.gitignore`
             - разобраться с `.gitconfig`
+- Смирнов Лев
+    - https://github.com/Lion-Hunter/UsdToEurConverter
+    - HW1:
+        * Status: Done (Dec 1)
+        * Notes:
+            - ветка `dev` не должна мерджиться в `main`, для этого есть `release`
+            - в `main` напрямую ничего коммитить нельзя, для этого есть `hotfix`
+            - для `feature`-веток стоит использовать префикс `feature/`
+            - в комментарии к коммиту рекомендуется использовать номер `issue`, или отвечать на вопрос "зачем" делаются эти изменения
+- Чернышев Ярослав
+    - https://github.com/Jar-Cher/SoftEngPrj
+    - HW1:
+        * Status: NOT Done (Dec 4)
+        * Notes:
+            - Путаница в ветках, куча прямых коммитов в `master` и `develop`, потом ещё и мердж `master` в `develop`.
+            - Коммиты и `issues` никак не слинкованы, `issues` вообще закрыты руками.
+- Fedorov Sergey
+    - https://github.com/Joker707/SE_converter
+    - HW1:
+        * Status: NOT Done (Dec 6)
+        * Notes:
+            - не выполнены требования, коммиты и `issues` на связаны
+- Smirnov Nikita
+    - https://github.com/3oDoR/TemperatureConverter
+    - HW1:
+        * Status: NOT Done (Dec 9)
+        * Notes:
+            - Нельзя делать прямые коммиты в `develop`, для этого есть `feature`
+            - Нельзя делать мерджить `develop` и `master`, для этого есть `release`
+            - ...а теперь представь, что у тебя релиз, и срочно нужно откатить какую-то фичу?
+
+
 
 ## 80203
 
@@ -134,12 +178,9 @@ Feel free to ask all your questions on the course's telegram channel.
 - Джеус Андрей
     - https://github.com/MickeyMouseMouse/Software-Engineering-lab1
     - HW1:
-        * Status: NOT Done (Nov 28)
+        * Status: Done (Dec 11)
         * Notes:
-            - Полностью проигнорирована хоть какая-то модель управления ветками в `git`. Всё свалено в одну кучу. Необходимо научиться использовать `git`.
-            - Линковка коммитов и задач в GitHub работает через символ `#`
-
-
+            - Ветка `develop` не должна мерджиться в `master`, для этого есть `release/`
 - Невоструева Яна
     - https://github.com/NevostruevaYana/CurrencyConverter
     - HW1:
@@ -200,16 +241,43 @@ Feel free to ask all your questions on the course's telegram channel.
             - нужно поместить вызов `gradle` в `Dockerfile`, чтобы это работало
 - Курняков Пётр
     - https://gitlab.com/pupptmstr/ass
+    - HW1:
         * Status: Done (Nov 30)
         * Notes:
             - Пароли к БД стоит передавать через переменные окружения
             - разобраться с `.gitconfig`
 - Танашкин В.А.
     - https://github.com/NastyPill/JokesService
+    - HW1:
         * Status: Done (Nov 30)
         * Notes:
             - в `main` ветку так ничего и не попало, нужно сделать `release` ветку для завершения проекта
             - `feature` векти остались висеть в воздухе... Нужно сделать PR, и мерж коммит, чтоб история изменений оставалась последовательной.
+- Викторов Илья
+    - https://github.com/Victorov-I-A/CurrencyConverter
+    - HW1:
+        * Status: Done (Dec 1)
+        * Notes:
+            - Бинарный артефакт в репозитории -- это провал для разработчика!
+            - Нужно дёргать `gradlew` на этапе сборки `Docker` образа
+            - Не выполнены требования по декомпозиции задачи и созданию `issues`.
+            - В коммитах куча не связанных вещей (`a451581`), результат плохой декомпозиции задачи.
+            - Ветка `develop` возникла из ниоткуда, после трёх мерджей в `master`
+            - Ветка `develop` не должна мерджиться в `master`
+- Трачук Илья
+    - https://github.com/kuchartI/QuizApp
+    - HW1:
+        * Status: Done (Dec 11)
+        * Notes:
+            - Ветки в реализацией функционала, оказались форкунты от `master` и слиты в `release`... Как это вообще пришло в голову?
+            - на данный момент `develop` и `master` указывают на один коммит! А новый `release` просто висит в воздухе.
+- Филимонов Артем
+    - HW1:
+        * Status: Done (Dec 11)
+        * Notes:
+            - Всё ОК, только `develop` указывает на коммит в `release/...` ветке. Чтоб такого не было, `relese` должен мерджиться в `master`, а потом обратно в `develop`.
+            - Хорошей практикой для управления версиями было бы положить отдельный файл с версией в репо (либо читать `git tag`), и читать оттуда версию при сборке `JAR`-ника.
+
 ## 80201
 
 - Матвеец Андрей
@@ -261,4 +329,32 @@ Feel free to ask all your questions on the course's telegram channel.
             - Ветки `develop` и `master` не пересекаются, нужна ветка `release`.
             - Навести порядок в `.gitconfig`
             - Скрыть `.idea` за `.gitignore`
-
+- Dimukhametov Marat
+    - https://github.com/maratdin7/file-storage
+    - HW1:
+        * Status: Done (Dec 6)
+        * Notes:
+            - В `develop` 2 раза сходил в `master`, для этого нужно использовать `release`.
+            - Прямой коммит в `develop` с бампов мерсии (`12a1b96`), для этого лучше использовать `release`
+            - Ещё один прямой коммит, для которого нужно использовать `feature` (`1ef1090`). Рефакторинг не несёт прямой ценности для бизнеса (читать Фаулера).
+            - ветка `hotfix` не возвращена в `develop` (`d1116cd`).
+- Петров Виталий
+    - https://github.com/ADsty/temperature_convertor
+    - HW1:
+        * Status: Done (Dec 6)
+        * Notes:
+            - Разобраться с `gitconfig` (https://github.com/ADsty/temperature_convertor/commits/main)
+            - Вижу попытку разобраться с `release`, но получился какой-то треш: мы форкается от `develop`, и мерджимся в `master` (при необходимости, обратно в `develop` тоже)
+- Иванов Игорь
+    - https://github.com/teacons/btc-eth-converter
+    - HW1:
+        * Status: Done (Dec 11)
+        * Notes:
+            - Я бы передавал `API-key` через переменные окружения
+            - Если у тебя релиз, то "SNAPSHOT" тащить уже не обязательно))
+- Пучкина Виктория
+    - https://github.com/Juniell/USD-EUR-converter
+    - HW1:
+        * Status: Done (Dec 11)
+        * Notes:
+            - В рамках взаимного уважения, я просил сдавать СВОИ работы.
