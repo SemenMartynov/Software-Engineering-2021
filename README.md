@@ -342,9 +342,11 @@ Feel free to ask all your questions on the course's telegram channel.
             - Комментарий к коммиту должен объяснять для чего делаются эти изменения.
             - Я не уверен, что `venv` нужен внутри `Docker`, т.к. `Docker` уже даёт более строгие гарантии изоляции
     - HW2:
-        * Status: NOT Done (Nov 30)
+        * Status: NOT Done (Dec 18)
         * Notes:
-            - Не все требования выполнены
+            - Для `git-flow` должно быть два беджика
+            - `feature` ветка для теста была форкнута от `master`
+            - `hotfix` с беджем нужно так же вернуть в `develop`
 - Ulyanov Andrey
     - https://github.com/AndreyUlyanov/temperature-converter
     - HW1:
