@@ -379,6 +379,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Я бы передавал `API-key` через переменные окружения
             - Если у тебя релиз, то "SNAPSHOT" тащить уже не обязательно))
+    - HW2:
+        * Status: Done (Dec 20)
+        * Notes:
+            - Ветка `github_ci` форкнута от `master`, а должна быть от `develop`
 - Пучкина Виктория
     - https://github.com/Juniell/USD-EUR-converter
     - HW1:
