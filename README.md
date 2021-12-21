@@ -285,11 +285,20 @@ Feel free to ask all your questions on the course's telegram channel.
             - Ветки в реализацией функционала, оказались форкунты от `master` и слиты в `release`... Как это вообще пришло в голову?
             - на данный момент `develop` и `master` указывают на один коммит! А новый `release` просто висит в воздухе.
 - Филимонов Артем
+    - https://github.com/BigArtemka/Kanye-Quote-And-Cat-Picture-API/
     - HW1:
         * Status: Done (Dec 11)
         * Notes:
             - Всё ОК, только `develop` указывает на коммит в `release/...` ветке. Чтоб такого не было, `relese` должен мерджиться в `master`, а потом обратно в `develop`.
             - Хорошей практикой для управления версиями было бы положить отдельный файл с версией в репо (либо читать `git tag`), и читать оттуда версию при сборке `JAR`-ника.
+- Tsaplin Ilya
+    - https://github.com/TsaplinIA/Software_Engineering_Labs
+    - HW1:
+        * Status: Done (Dec 17)
+        * Notes:
+            - `develop` не мержится в `master`
+            - линковка коммитов и задач сделана правильно, но это не означает что `commit message` не должен больше содержать ничего
+
 
 ## 80201
 
