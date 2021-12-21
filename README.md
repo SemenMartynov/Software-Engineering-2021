@@ -189,6 +189,9 @@ Feel free to ask all your questions on the course's telegram channel.
             - был отличный граф коммитов... Пока `develop` не улетел прямо в `master`. Это можно было сразу пофиксить ревертом коммита.
             - В `feature`-ветках (как и в `hotfix` и `release`) рекомендуется префикс такого вида `feature/` (с символом `/`). Это позволяет всяким графическим средам удобно группировать ветки.
             - В комментарии к коммиту можно указывать номер `issue` для связи через символ `#`
+    - HW2:
+        * Status: NOT Done (Dec 17)
+            - C `Jenkins` всё хорошо, но коммит в `master` опять улетел прямо из `develop`. Нужно откатить последний коммит из `master`, и сделать всё через `release`
 - Джеус Андрей
     - https://github.com/MickeyMouseMouse/Software-Engineering-lab1
     - HW1:
