@@ -385,3 +385,7 @@ Feel free to ask all your questions on the course's telegram channel.
         * Status: Done (Dec 11)
         * Notes:
             - В рамках взаимного уважения, я просил сдавать СВОИ работы.
+    - HW2:
+        * Status: Done (Dec 20)
+        * Notes:
+            - Ветка `github_actions` форкнута от `master`, а должна быть от `develop`
