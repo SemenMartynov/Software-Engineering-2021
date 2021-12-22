@@ -6,6 +6,7 @@ Feel free to ask all your questions on the course's telegram channel.
 ## 80101
 
 - Фам Тхи Тхань Бинь
+    - https://github.com/PhamBinh98/Software-Engineering-2021
     - HW1:
         * Status: Done (Nov 13)
         * Notes:
@@ -14,6 +15,11 @@ Feel free to ask all your questions on the course's telegram channel.
             - Необходимо исправить `.gitconfig`
             - Декомпозиция задач есть, но это декомпозиция с точки зрения инженера. Бизнесу из описания задачи должно быть понятно, какую пользу несёт эта фича!
             - Линковка задач и коммитов сделана неожиданно))) Я предполагал обратное, т.к. в комментарии к коммиту указывать номер проблемы, которая решается этим коммитом.
+    - HW2:
+        * Status: Done (Dec 16)
+        * Notes:
+            - `feature`-ветки не должны порождаться от `main`, для этого есть `develop`
+            - `develop` не должен мерджиться в `main`, для этого есть `release`
 - Дзюба Богдан
     - HW1:
         * Status: NOT Done (Nov 30)
@@ -64,7 +70,10 @@ Feel free to ask all your questions on the course's telegram channel.
             - Всё те же замечания, что я писал Фам Тхи Тхань Бинь: нужен коммит в `main` (раз он есть), префикс для `feature/` веток, настроить `.gitconfig`
             - В задачах заметил "Рефакторинг". Такие задачи плохо продаются бизнесу, т.к. не несут коммерческой ценности. На эту тему можно почитать Фаулера, он описывает принцип бойскаутов для решения таких ситуаций.
             - Не стоит миксовать русский и английский языки при комментировании коммитов.
-
+    - HW2:
+        * Status: Done (Dec 16)
+        * Notes:
+            - Опять всё как у Фам Тхи Тхань Бинь
 - Lunyak.NA
     - https://bitbucket.org/luna_koly/btc2btsconverter/src/main/
     - HW1:
@@ -85,9 +94,10 @@ Feel free to ask all your questions on the course's telegram channel.
 - Шерепа Никита
     - https://github.com/beatHunteRcode/ZoneNewsDiscordBot
     - HW1:
-        * Status: NOT Done (Nov 28)
+        * Status: Done (Dec 12)
         * Notes:
-            - Не выполнены требования по депомозиции и управлению ветками
+            - Теперь осталось выработать привычку делать декомпозицию задачи перед работой
+            - прямые коммиты в `develop` ветку не делаются, для это этого есть `feature`-ветки
 - Савельев Дмитрий
     - https://github.com/KarrokBeorna/YoutubeGifBot
     - HW1:
@@ -144,8 +154,14 @@ Feel free to ask all your questions on the course's telegram channel.
             - Нельзя делать прямые коммиты в `develop`, для этого есть `feature`
             - Нельзя делать мерджить `develop` и `master`, для этого есть `release`
             - ...а теперь представь, что у тебя релиз, и срочно нужно откатить какую-то фичу?
-
-
+- Кейта Абубакар Сидики
+    - https://github.com/3oDoR/TemperatureConverter
+    - HW1:
+        * Status: Done (Dec 13)
+        * Notes:
+            - Разобраться с `.gitconfig`
+            - Нельзя делать прямые коммиты в `develop`
+            - Ветка `develop` не должна мерджиться в `master`
 
 ## 80203
 
@@ -173,6 +189,9 @@ Feel free to ask all your questions on the course's telegram channel.
             - был отличный граф коммитов... Пока `develop` не улетел прямо в `master`. Это можно было сразу пофиксить ревертом коммита.
             - В `feature`-ветках (как и в `hotfix` и `release`) рекомендуется префикс такого вида `feature/` (с символом `/`). Это позволяет всяким графическим средам удобно группировать ветки.
             - В комментарии к коммиту можно указывать номер `issue` для связи через символ `#`
+    - HW2:
+        * Status: NOT Done (Dec 17)
+            - C `Jenkins` всё хорошо, но коммит в `master` опять улетел прямо из `develop`. Нужно откатить последний коммит из `master`, и сделать всё через `release`
 - Джеус Андрей
     - https://github.com/MickeyMouseMouse/Software-Engineering-lab1
     - HW1:
@@ -182,10 +201,9 @@ Feel free to ask all your questions on the course's telegram channel.
 - Невоструева Яна
     - https://github.com/NevostruevaYana/CurrencyConverter
     - HW1:
-        * Status: NOT Done (Nov 28)
+        * Status: Done (Dec 12)
         * Notes:
-            - Произошла путаница в ветках, нужно это исправить (https://github.com/NevostruevaYana/CurrencyConverter/network)
-            - Нужно разобраться с `.gitconfig`
+            - `develop` и `master` не могут мерджиться друг в друга
 - Медведев Данил
     - https://github.com/dVede/ConsoleWeatherApp
     - HW1:
@@ -270,11 +288,20 @@ Feel free to ask all your questions on the course's telegram channel.
             - Ветки в реализацией функционала, оказались форкунты от `master` и слиты в `release`... Как это вообще пришло в голову?
             - на данный момент `develop` и `master` указывают на один коммит! А новый `release` просто висит в воздухе.
 - Филимонов Артем
+    - https://github.com/BigArtemka/Kanye-Quote-And-Cat-Picture-API/
     - HW1:
         * Status: Done (Dec 11)
         * Notes:
             - Всё ОК, только `develop` указывает на коммит в `release/...` ветке. Чтоб такого не было, `relese` должен мерджиться в `master`, а потом обратно в `develop`.
             - Хорошей практикой для управления версиями было бы положить отдельный файл с версией в репо (либо читать `git tag`), и читать оттуда версию при сборке `JAR`-ника.
+- Tsaplin Ilya
+    - https://github.com/TsaplinIA/Software_Engineering_Labs
+    - HW1:
+        * Status: Done (Dec 17)
+        * Notes:
+            - `develop` не мержится в `master`
+            - линковка коммитов и задач сделана правильно, но это не означает что `commit message` не должен больше содержать ничего
+
 
 ## 80201
 
@@ -315,9 +342,11 @@ Feel free to ask all your questions on the course's telegram channel.
             - Комментарий к коммиту должен объяснять для чего делаются эти изменения.
             - Я не уверен, что `venv` нужен внутри `Docker`, т.к. `Docker` уже даёт более строгие гарантии изоляции
     - HW2:
-        * Status: NOT Done (Nov 30)
+        * Status: NOT Done (Dec 18)
         * Notes:
-            - Не все требования выполнены
+            - Для `git-flow` должно быть два беджика
+            - `feature` ветка для теста была форкнута от `master`
+            - `hotfix` с беджем нужно так же вернуть в `develop`
 - Ulyanov Andrey
     - https://github.com/AndreyUlyanov/temperature-converter
     - HW1:
@@ -350,9 +379,17 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Я бы передавал `API-key` через переменные окружения
             - Если у тебя релиз, то "SNAPSHOT" тащить уже не обязательно))
+    - HW2:
+        * Status: Done (Dec 20)
+        * Notes:
+            - Ветка `github_ci` форкнута от `master`, а должна быть от `develop`
 - Пучкина Виктория
     - https://github.com/Juniell/USD-EUR-converter
     - HW1:
         * Status: Done (Dec 11)
         * Notes:
             - В рамках взаимного уважения, я просил сдавать СВОИ работы.
+    - HW2:
+        * Status: Done (Dec 20)
+        * Notes:
+            - Ветка `github_actions` форкнута от `master`, а должна быть от `develop`
