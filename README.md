@@ -23,6 +23,6 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80201
 
-- Солянкин Илья - https://github.com/Evil-Enot/DegreeConverter
+- Солянкин Илья (Lab 2 done) - https://github.com/Evil-Enot/DegreeConverter
 -
 -
