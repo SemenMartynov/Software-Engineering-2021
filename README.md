@@ -320,6 +320,10 @@ Feel free to ask all your questions on the course's telegram channel.
             - Изменения из `release` не вернулись в `develop`
             - Короткоживущие ветки следует отделять символом `/`
             - Разобраться с `.gitconfig` (см. коммит `48c9ae7`)
+    - HW2:
+        * Status: NOT Done (Dec 24)
+        * Notes:
+            - Осталось прикрутить бейджики в `README.md`. Это можно сделать через `hotfix/`, и увеличив версию до 1.1.1. Важно не забыть замерджить этот `hotfix/` не только в `master`, но и в `develop`.
 - Ляшенко Валерия
     - https://github.com/Evil-Enot/DegreeConverter/
     - HW1:
