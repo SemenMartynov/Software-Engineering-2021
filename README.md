@@ -163,6 +163,8 @@ Feel free to ask all your questions on the course's telegram channel.
             - Нельзя делать прямые коммиты в `develop`
             - Ветка `develop` не должна мерджиться в `master`
 
+- Луняк Николай - https://bitbucket.org/luna_koly/btc2btsconverter
+
 ## 80203
 
 - Tarasenko Nikita
