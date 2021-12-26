@@ -308,7 +308,7 @@ Feel free to ask all your questions on the course's telegram channel.
 - Матвеец Андрей
     - https://github.com/Nekobitlz/case-converter
     - HW1:
-        * Status: NOT Done (Nov 29)
+        * Status: Done (Dec 25)
         * Notes:
             - Нет управления ветками
 
