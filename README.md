@@ -192,6 +192,13 @@ Feel free to ask all your questions on the course's telegram channel.
     - HW2:
         * Status: NOT Done (Dec 17)
             - C `Jenkins` всё хорошо, но коммит в `master` опять улетел прямо из `develop`. Нужно откатить последний коммит из `master`, и сделать всё через `release`
+        
+       * Notes: пофиксил замечания с мёрджем release в main:
+            - создал новую ветку release от init commit'а
+            - revert'нул изменения от последнего пуша в master
+            - вмёржил develop в release
+            - вмёржил release в main
+            - добавил коммит в develop чисто для красоты - чтоб ветка дальше продолжалась
 - Джеус Андрей
     - https://github.com/MickeyMouseMouse/Software-Engineering-lab1
     - HW1:
