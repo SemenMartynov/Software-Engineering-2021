@@ -181,6 +181,11 @@ Feel free to ask all your questions on the course's telegram channel.
             - Я вижу `master` и `main`. Это просто взрыв мозга, я не понимаю какой подход к управлению ветками тут используется.
             - В `git-flow` нет ветки, с именем `bugfix`.
             - Для линковки коммитов с задачами, в комментарии к коммиту указывается номер `issue`, т.е. руками `issue` закрывать не нужно
+    - HW2:
+        * Status: NOT Done (Dec 25)
+        * Notes:
+            - Добавить возможность запускать тесты руками
+            - Даже в Trunk Based Development мы не делаем прямые коммиты в `master`
 - Алексей Бедрин
     - https://github.com/HaveAHeart/AvgDailyTemperature
     - HW1:
