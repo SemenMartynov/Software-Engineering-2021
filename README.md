@@ -200,8 +200,8 @@ Feel free to ask all your questions on the course's telegram channel.
             - В `feature`-ветках (как и в `hotfix` и `release`) рекомендуется префикс такого вида `feature/` (с символом `/`). Это позволяет всяким графическим средам удобно группировать ветки.
             - В комментарии к коммиту можно указывать номер `issue` для связи через символ `#`
     - HW2:
-        * Status: NOT Done (Dec 17)
-            - C `Jenkins` всё хорошо, но коммит в `master` опять улетел прямо из `develop`. Нужно откатить последний коммит из `master`, и сделать всё через `release`
+        * Status: Done (Dec 27)
+            - Ветка `release` форкается не от `init`, а от `develop`, в тот момент когда ты готов сделать новый релиз. И тогда нет необходимость делать коммиты в `develop` для красоты -- она и так будет продолжаться.
 - Джеус Андрей
     - https://github.com/MickeyMouseMouse/Software-Engineering-lab1
     - HW1:
