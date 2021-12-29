@@ -178,6 +178,10 @@ Feel free to ask all your questions on the course's telegram channel.
             - Ветки `develop` и `master` друг к другу не ходят, для этого есть `release` и `hotfix`
             - Видимо вначале были проблемы с `.gitconfig`
             - Служебные папки (`.idea`) тоже принято прятать за `.gitignore`
+    - HW2:
+        * Status: Done (Dec 28)
+        * Notes:
+            - Не очень понял, откуда форкнута ветка `hotfix`. Такое чувство, что от `116f4bf`, хотя должна от `32c6e50`. И, кстати, там тоже нужно версию поднять. Новый коммит в `master` -- новый релиз.
 - Никифоров Тимофей
     - https://github.com/nikiforovta/Software-Engineering-lab1
     - HW1:
