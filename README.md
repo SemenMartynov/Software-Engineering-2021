@@ -62,6 +62,9 @@ Feel free to ask all your questions on the course's telegram channel.
             - Проигнорировано требование декомпозиции задачи на `issues` и линковка коммитов с задачами.
             - Бедные описания к коммитам, они не отвечают на вопрос "зачем?".
     - HW2:
+        * Status: Done (Dec 28)
+        * Notes:
+            - Занятно -- на GitHub кто-то этот проект уже форкнул и уже наделал коммитов в свой форк!)
 - Сухачев Никита
     - https://github.com/SukhachevN/Software-Engineering-2021
     - HW1:
