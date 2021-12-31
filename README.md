@@ -359,6 +359,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Status: Done (Nov 30)
         * Notes:
             - нужно только изменения из `hotfix` вернуть обратно в `develop`, а то их можно потерять...
+    - HW2:
+        * Status: Done (Dec 30)
+        * Notes:
+            - В обычной жизни всё же не стоит так часто использовать `hotfix`)))) Обычно, это признак того, что QA хлопнули ушами и пропустили баг на прод...
 - Рамис Сахибгареев
     - https://github.com/rapturemain/currency-converter
     - HW1:
