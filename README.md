@@ -215,6 +215,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Status: Done (Dec 11)
         * Notes:
             - Ветка `develop` не должна мерджиться в `master`, для этого есть `release/`
+    - HW2:
+        * Status: Done (Dec 28)
+        * Notes:
+            - Ветка `release` форкается от `develop`. Потому она и называется короткожевущей)
 - Невоструева Яна
     - https://github.com/NevostruevaYana/CurrencyConverter
     - HW1:
