@@ -363,7 +363,7 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Осталось прикрутить бейджики в `README.md`. Это можно сделать через `hotfix/`, и увеличив версию до 1.1.1. Важно не забыть замерджить этот `hotfix/` не только в `master`, но и в `develop`.
 - Ляшенко Валерия
-    - https://github.com/Evil-Enot/DegreeConverter/
+    - https://github.com/LyashenkoValeria/TempConverter
     - HW1:
         * Status: Done (Nov 30)
         * Notes:
