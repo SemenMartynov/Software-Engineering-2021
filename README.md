@@ -176,7 +176,7 @@ Feel free to ask all your questions on the course's telegram channel.
             - Видимо вначале были проблемы с `.gitconfig`
             - Служебные папки (`.idea`) тоже принято прятать за `.gitignore`
 - Никифоров Тимофей
-    - https://github.com/nikiforovta/Software-Engineering-lab1#software-engineering-lab
+    - https://github.com/nikiforovta/Software-Engineering-lab1/blob/main/.github/workflows/python-app.yml
     - HW1:
         * Status: Done (Nov 23)
         * Notes:
