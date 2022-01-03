@@ -218,7 +218,7 @@ Feel free to ask all your questions on the course's telegram channel.
         * Status: Done (Dec 27)
             - Ветка `release` форкается не от `init`, а от `develop`, в тот момент когда ты готов сделать новый релиз. И тогда нет необходимость делать коммиты в `develop` для красоты -- она и так будет продолжаться.
 - Джеус Андрей
-    - https://github.com/MickeyMouseMouse/Software-Engineering-lab1
+    - https://github.com/MickeyMouseMouse/Software-Engineering-labs
     - HW1:
         * Status: Done (Dec 11)
         * Notes:
