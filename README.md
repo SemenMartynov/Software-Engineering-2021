@@ -181,6 +181,8 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80203
 
+
+
 - Tarasenko Nikita
     - https://github.com/GetRhymes/ConverterXML
     - HW1:
@@ -194,7 +196,7 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Не очень понял, откуда форкнута ветка `hotfix`. Такое чувство, что от `116f4bf`, хотя должна от `32c6e50`. И, кстати, там тоже нужно версию поднять. Новый коммит в `master` -- новый релиз.
 - Никифоров Тимофей
-    - https://github.com/nikiforovta/Software-Engineering-lab1
+    - https://github.com/nikiforovta/Software-Engineering-lab1/blob/main/.github/workflows/python-app.yml
     - HW1:
         * Status: Done (Nov 23)
         * Notes:
