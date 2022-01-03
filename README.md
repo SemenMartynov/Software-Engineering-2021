@@ -62,6 +62,9 @@ Feel free to ask all your questions on the course's telegram channel.
             - Проигнорировано требование декомпозиции задачи на `issues` и линковка коммитов с задачами.
             - Бедные описания к коммитам, они не отвечают на вопрос "зачем?".
     - HW2:
+        * Status: Done (Dec 28)
+        * Notes:
+            - Занятно -- на GitHub кто-то этот проект уже форкнул и уже наделал коммитов в свой форк!)
 - Сухачев Никита
     - https://github.com/SukhachevN/Software-Engineering-2021
     - HW1:
@@ -82,6 +85,10 @@ Feel free to ask all your questions on the course's telegram channel.
             - Линковать коммит достаточно с `issue`. Линковка на `PR` нужна скорее для ситуации, когда там была допущена какая-то ошибка, и новый коммит это фиксит
             - Если для БД креденшелы задаются через переменные окружения, то и для сервиса должно быть точно так же (`backend/backend/settings.py`)
             - Нельзя переписывать историю публичных веток, тем более форсом ломать упорядоченность коммитов (https://bitbucket.org/luna_koly/btc2btsconverter/commits/branch/main). Все коммиты должны образовывать односвязный список.
+    - HW2:
+        * Status: Done (Dec 29)
+        * Notes:
+            - Вот как раз следование git-flow или trunk based development позволяют иметь чистую историю. Но коммиты должны быть линейно упорядочены, без этого ты теряешь возможность отслеживать какие изменения были сделаны в каком порядке и при каких обстоятельствах (для чего). Это применимо и к тому случаю, когда никто кроме тебя не работает в этом репозитории. Просто введи для себя правило никогда-никогда не делать форсы, пока не разберёшься в этом механизме окончательно.
 - Ткаченко Даниил
     - https://github.com/Daniil1380/calculator
     - HW1:
@@ -91,6 +98,11 @@ Feel free to ask all your questions on the course's telegram channel.
             - Разобраться с `.gitconfig`, чтобы все коммиты шли от понятного пользователя.
             - `master` форкнут от... Уф... Граф веток взрывает мозг. Но радует наличие `release` ветки.
             - Для реализации функционала следует использовать ветки с префиксом `feature/`
+    - HW2:
+        * Status: NOT Done (Dec 25)
+        * Notes:
+            - В git-flow мы не делаем прямые коммиты в `master` и `develop`
+            - В git-flow ьф не мерджим `develop` в `master`, для этого есть ветка `release`. Нужно откатить последний коммит в `master` и исправить это
 - Шерепа Никита
     - https://github.com/beatHunteRcode/ZoneNewsDiscordBot
     - HW1:
@@ -98,6 +110,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Теперь осталось выработать привычку делать декомпозицию задачи перед работой
             - прямые коммиты в `develop` ветку не делаются, для это этого есть `feature`-ветки
+    - HW2:
+        * Status: Done (Dec 31)
+        * Notes:
+            - Нельзя делать прямые коммиты в `master` ветку. Каждый коммит в `master` стоит рассматривать как новый релиз.
 - Савельев Дмитрий
     - https://github.com/KarrokBeorna/YoutubeGifBot
     - HW1:
@@ -173,6 +189,10 @@ Feel free to ask all your questions on the course's telegram channel.
             - Ветки `develop` и `master` друг к другу не ходят, для этого есть `release` и `hotfix`
             - Видимо вначале были проблемы с `.gitconfig`
             - Служебные папки (`.idea`) тоже принято прятать за `.gitignore`
+    - HW2:
+        * Status: Done (Dec 28)
+        * Notes:
+            - Не очень понял, откуда форкнута ветка `hotfix`. Такое чувство, что от `116f4bf`, хотя должна от `32c6e50`. И, кстати, там тоже нужно версию поднять. Новый коммит в `master` -- новый релиз.
 - Никифоров Тимофей
     - https://github.com/nikiforovta/Software-Engineering-lab1
     - HW1:
@@ -181,6 +201,11 @@ Feel free to ask all your questions on the course's telegram channel.
             - Я вижу `master` и `main`. Это просто взрыв мозга, я не понимаю какой подход к управлению ветками тут используется.
             - В `git-flow` нет ветки, с именем `bugfix`.
             - Для линковки коммитов с задачами, в комментарии к коммиту указывается номер `issue`, т.е. руками `issue` закрывать не нужно
+    - HW2:
+        * Status: NOT Done (Dec 25)
+        * Notes:
+            - Добавить возможность запускать тесты руками
+            - Даже в Trunk Based Development мы не делаем прямые коммиты в `master`
 - Алексей Бедрин
     - https://github.com/HaveAHeart/AvgDailyTemperature
     - HW1:
@@ -190,20 +215,29 @@ Feel free to ask all your questions on the course's telegram channel.
             - В `feature`-ветках (как и в `hotfix` и `release`) рекомендуется префикс такого вида `feature/` (с символом `/`). Это позволяет всяким графическим средам удобно группировать ветки.
             - В комментарии к коммиту можно указывать номер `issue` для связи через символ `#`
     - HW2:
-        * Status: NOT Done (Dec 17)
-            - C `Jenkins` всё хорошо, но коммит в `master` опять улетел прямо из `develop`. Нужно откатить последний коммит из `master`, и сделать всё через `release`
+        * Status: Done (Dec 27)
+            - Ветка `release` форкается не от `init`, а от `develop`, в тот момент когда ты готов сделать новый релиз. И тогда нет необходимость делать коммиты в `develop` для красоты -- она и так будет продолжаться.
 - Джеус Андрей
     - https://github.com/MickeyMouseMouse/Software-Engineering-lab1
     - HW1:
         * Status: Done (Dec 11)
         * Notes:
             - Ветка `develop` не должна мерджиться в `master`, для этого есть `release/`
+    - HW2:
+        * Status: Done (Dec 28)
+        * Notes:
+            - Ветка `release` форкается от `develop`. Потому она и называется короткожевущей)
 - Невоструева Яна
     - https://github.com/NevostruevaYana/CurrencyConverter
     - HW1:
         * Status: Done (Dec 12)
         * Notes:
             - `develop` и `master` не могут мерджиться друг в друга
+    - HW2:
+        * Status: NOT Done (Dec 31)
+        * Notes:
+            - Бейдижики должны быть для обеих веток, раз ты используешь git flow. И ещё возможность запускать CI руками.
+            - Не должно быть прямых коммитов в `master` ветку, для этого есть `hotfix/`
 - Медведев Данил
     - https://github.com/dVede/ConsoleWeatherApp
     - HW1:
@@ -255,6 +289,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - `develop` не ходит в `master`, для этого есть `release`
             - нужно поместить вызов `gradle` в `Dockerfile`, чтобы это работало
+    - HW1:
+        * Status: NOT Done (Dec 29)
+        * Notes:
+            - По условиям задачи, у нас должны быть беждики на обе долгоживущие ветки и возможность запускать CI руками.
 - Курняков Пётр
     - https://gitlab.com/pupptmstr/ass
     - HW1:
@@ -308,7 +346,7 @@ Feel free to ask all your questions on the course's telegram channel.
 - Матвеец Андрей
     - https://github.com/Nekobitlz/case-converter
     - HW1:
-        * Status: NOT Done (Nov 29)
+        * Status: Done (Dec 25)
         * Notes:
             - Нет управления ветками
 
@@ -320,12 +358,20 @@ Feel free to ask all your questions on the course's telegram channel.
             - Изменения из `release` не вернулись в `develop`
             - Короткоживущие ветки следует отделять символом `/`
             - Разобраться с `.gitconfig` (см. коммит `48c9ae7`)
+    - HW2:
+        * Status: Done (Dec 24)
+        * Notes:
+            - Осталось прикрутить бейджики в `README.md`. Это можно сделать через `hotfix/`, и увеличив версию до 1.1.1. Важно не забыть замерджить этот `hotfix/` не только в `master`, но и в `develop`.
 - Ляшенко Валерия
     - https://github.com/Evil-Enot/DegreeConverter/
     - HW1:
         * Status: Done (Nov 30)
         * Notes:
             - нужно только изменения из `hotfix` вернуть обратно в `develop`, а то их можно потерять...
+    - HW2:
+        * Status: Done (Dec 30)
+        * Notes:
+            - В обычной жизни всё же не стоит так часто использовать `hotfix`)))) Обычно, это признак того, что QA хлопнули ушами и пропустили баг на прод...
 - Рамис Сахибгареев
     - https://github.com/rapturemain/currency-converter
     - HW1:
@@ -342,7 +388,7 @@ Feel free to ask all your questions on the course's telegram channel.
             - Комментарий к коммиту должен объяснять для чего делаются эти изменения.
             - Я не уверен, что `venv` нужен внутри `Docker`, т.к. `Docker` уже даёт более строгие гарантии изоляции
     - HW2:
-        * Status: NOT Done (Dec 18)
+        * Status: Done (Dec 22)
         * Notes:
             - Для `git-flow` должно быть два беджика
             - `feature` ветка для теста была форкнута от `master`
