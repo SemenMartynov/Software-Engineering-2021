@@ -233,6 +233,11 @@ Feel free to ask all your questions on the course's telegram channel.
         * Status: Done (Dec 12)
         * Notes:
             - `develop` и `master` не могут мерджиться друг в друга
+    - HW2:
+        * Status: NOT Done (Dec 31)
+        * Notes:
+            - Бейдижики должны быть для обеих веток, раз ты используешь git flow. И ещё возможность запускать CI руками.
+            - Не должно быть прямых коммитов в `master` ветку, для этого есть `hotfix/`
 - Медведев Данил
     - https://github.com/dVede/ConsoleWeatherApp
     - HW1:
