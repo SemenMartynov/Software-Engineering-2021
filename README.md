@@ -110,6 +110,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Теперь осталось выработать привычку делать декомпозицию задачи перед работой
             - прямые коммиты в `develop` ветку не делаются, для это этого есть `feature`-ветки
+    - HW2:
+        * Status: Done (Dec 31)
+        * Notes:
+            - Нельзя делать прямые коммиты в `master` ветку. Каждый коммит в `master` стоит рассматривать как новый релиз.
 - Савельев Дмитрий
     - https://github.com/KarrokBeorna/YoutubeGifBot
     - HW1:
