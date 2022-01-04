@@ -349,7 +349,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Status: Done (Dec 25)
         * Notes:
             - Нет управления ветками
-
+    - HW2:
+        * Status: Done (Jan 3)
+        * Notes:
+            - Обсудили в PRе
 - Солянкин Илья
     - https://github.com/Evil-Enot/DegreeConverter/
     - HW1:
