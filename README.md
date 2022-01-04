@@ -202,7 +202,7 @@ Feel free to ask all your questions on the course's telegram channel.
             - В `git-flow` нет ветки, с именем `bugfix`.
             - Для линковки коммитов с задачами, в комментарии к коммиту указывается номер `issue`, т.е. руками `issue` закрывать не нужно
     - HW2:
-        * Status: NOT Done (Dec 25)
+        * Status: Done (Jan 3)
         * Notes:
             - Добавить возможность запускать тесты руками
             - Даже в Trunk Based Development мы не делаем прямые коммиты в `master`
