@@ -18,7 +18,7 @@ Feel free to ask all your questions on the course's telegram channel.
 ## 80203
 
 -
-- Астудина Анастасия - https://github.com/astudina/SoftwareEngineering-Lab1
+- Астудина Анастасия - https://github.com/astudina/SoftwareEngineering-Lab1 (добавлено второе задание)
 -
 
 ## 80201
