@@ -290,6 +290,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Третья похожая по стилю работа... Ну ладно. Важно другое, важно не перемешивать ветки при Trunk Based Development.
             - Ну и `Docker` это скорее про демоны, чем про обёртку над интерактивными `cli` утилитами
+    - HW2:
+        * Status: NOT Done (Jan 5)
+        * Notes:
+            - Как и у Анастасии, добавить беджик
 - Васильев Роман
     - https://github.com/killawetz/Software-Engineering-lab1
     - HW1:
