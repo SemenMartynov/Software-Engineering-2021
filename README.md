@@ -279,6 +279,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Даже такие задачи, как добавление лицензии или картинки должны решаться через соответствующие `feature/` ветки, нельзя коммитить прямо в `master`
             - Веткам лучше давать более осмысленные названия, это поможет в будущем не запутаться
+    - HW2:
+        * Status: NOT Done (Jan 5)
+        * Notes:
+            - Добавить беджик с результатами теста в README.md
 - Зайцева Елизавета
     - https://github.com/LizaZaytseva/SE_lab1_converter
     - HW1:
