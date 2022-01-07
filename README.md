@@ -187,6 +187,14 @@ Feel free to ask all your questions on the course's telegram channel.
             - IDE-специфичные файлы в репо, нужно убрать и закрыть `.gitignore`
             - Некорректный `Dockerfile`: у меня нет `/out...` для копирования оттуда бинарника. Нужно сделать стейдж для сборки и стейдж для запуска
             - Никаких прямых коммитов в `develop`
+- Чернышев Ярослав
+    - https://github.com/Jar-Cher/SoftEngPrj
+        - HW1:
+        * Status: NOT Done (Jan 6)
+        * Notes:
+            - IDE-специфичные файлы в репо, нужно убрать и закрыть `.gitignore`
+            - прямые коммиты в `master` и `develop`
+            - Часть issues слинковано с коммитами, а часть нет. К примеру, какой код решает эту задачу <https://github.com/Jar-Cher/SoftEngPrj/issues/2> ?
 
 ## 80203
 
