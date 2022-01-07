@@ -178,6 +178,15 @@ Feel free to ask all your questions on the course's telegram channel.
             - Разобраться с `.gitconfig`
             - Нельзя делать прямые коммиты в `develop`
             - Ветка `develop` не должна мерджиться в `master`
+- Федоров Сергей
+    - https://github.com/Joker707/vol_converter
+    - HW1:
+        * Status: NOT Done (Jan 6)
+        * Notes:
+            - Нет файла с лицензией
+            - IDE-специфичные файлы в репо, нужно убрать и закрыть `.gitignore`
+            - Некорректный `Dockerfile`: у меня нет `/out...` для копирования оттуда бинарника. Нужно сделать стейдж для сборки и стейдж для запуска
+            - Никаких прямых коммитов в `develop`
 
 ## 80203
 
