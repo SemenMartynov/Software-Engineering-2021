@@ -18,7 +18,7 @@ Feel free to ask all your questions on the course's telegram channel.
 ## 80203
 
 -
-- Зайцева Елизавета - https://github.com/LizaZaytseva/SE_lab1_converter выполнена lab2
+- Зайцева Елизавета - https://github.com/LizaZaytseva/SE_lab1_converter исправила lab2
 -
 
 ## 80201
