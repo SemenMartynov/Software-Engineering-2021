@@ -228,7 +228,7 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Ветка `release` форкается от `develop`. Потому она и называется короткожевущей)
 - Невоструева Яна
-    - https://github.com/NevostruevaYana/CurrencyConverter
+    - https://github.com/NevostruevaYana/Software-Engineering-2021-lab1
     - HW1:
         * Status: Done (Dec 12)
         * Notes:
