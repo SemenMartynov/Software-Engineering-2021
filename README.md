@@ -19,7 +19,7 @@ Feel free to ask all your questions on the course's telegram channel.
 
 -
 -Рубша Анастасия - https://github.com/Valkiriya228/SoftwareEngLabFirst
--
+-(сделала вторую лабораторную работу)
 
 ## 80201
 
