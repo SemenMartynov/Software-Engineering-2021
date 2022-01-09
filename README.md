@@ -11,7 +11,7 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80202
 
-- Савельев Дмитрий - https://github.com/KarrokBeorna/YoutubeGifBot
+- Савельев Дмитрий - https://github.com/KarrokBeorna/YoutubeGifBot - лаб2
 -
 -
 
