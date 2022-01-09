@@ -298,7 +298,7 @@ Feel free to ask all your questions on the course's telegram channel.
     - HW2:
         * Status: NOT Done (Jan 8)
         * Notes:
-            - Нет возможности ручного запуска workflow
+            - Нет возможности ручного запуска `workflow`
             - Не должно быть прямых коммитов в `master` (откатить последний коммит)
 - Зайцева Елизавета
     - https://github.com/LizaZaytseva/SE_lab1_converter
@@ -308,9 +308,10 @@ Feel free to ask all your questions on the course's telegram channel.
             - Третья похожая по стилю работа... Ну ладно. Важно другое, важно не перемешивать ветки при Trunk Based Development.
             - Ну и `Docker` это скорее про демоны, чем про обёртку над интерактивными `cli` утилитами
     - HW2:
-        * Status: NOT Done (Jan 5)
+        * Status: NOT Done (Jan 8)
         * Notes:
-            - Как и у Анастасии, добавить беджик
+            - Как и у Анастасии: убрать последний коммит из `master` и (через `feature` ветку) исправить `workflow` для возможности запускать руками
+            - убрать из репо служебную папку `IDE`, скрыть её за `.gitignore`
 - Васильев Роман
     - https://github.com/killawetz/Software-Engineering-lab1
     - HW1:
