@@ -245,16 +245,15 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Ветка `release` форкается от `develop`. Потому она и называется короткожевущей)
 - Невоструева Яна
-    - https://github.com/NevostruevaYana/CurrencyConverter
+    - https://github.com/NevostruevaYana/Software-Engineering-2021-lab1
     - HW1:
         * Status: Done (Dec 12)
         * Notes:
             - `develop` и `master` не могут мерджиться друг в друга
     - HW2:
-        * Status: NOT Done (Dec 31)
+        * Status: Done (Jan 8)
         * Notes:
-            - Бейдижики должны быть для обеих веток, раз ты используешь git flow. И ещё возможность запускать CI руками.
-            - Не должно быть прямых коммитов в `master` ветку, для этого есть `hotfix/`
+            - Осталось ещё `hotfix/` вернуть в `develop`
 - Медведев Данил
     - https://github.com/dVede/ConsoleWeatherApp
     - HW1:
