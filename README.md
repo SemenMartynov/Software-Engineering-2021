@@ -181,6 +181,10 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80203
 
+
+-Рубша Анастасия - https://github.com/Valkiriya228/SoftwareEngLabFirst
+-(сделала вторую лабораторную работу)
+
 - Tarasenko Nikita
     - https://github.com/GetRhymes/ConverterXML
     - HW1:
