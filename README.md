@@ -288,6 +288,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Я так понимаю, это попытка Trunk Based Development. Мы каждую новую `feature` форкаем от главной ветки, и обратно её туда сливаем. Теоретически возможна ситуация, когда мы `feature`-ветку форкаем от `feature`-ветки же, но это крайне не типично для Trunk Based Development (собственно одно из его основных назначений - бороться с такими ситуациями).
             - служебные директории (`.idea`) не должны попадать в кодобазу (`.gitignore`).
+    - HW2:
+        * Status: Done (Jan 9)
+        * Notes:
+            - служебные директории (`.idea`) не должны попадать в кодобазу (`.gitignore`).
 - Астудина Анастасия
     - https://github.com/astudina/SoftwareEngineering-Lab1
     - HW1:
