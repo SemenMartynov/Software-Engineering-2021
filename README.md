@@ -122,6 +122,10 @@ Feel free to ask all your questions on the course's telegram channel.
             - Ветки `master` и `develop` перепутаны местами: `feature` векти мерджатся в `develop`.
             - в качестве временной директории можно использовать `/tmp`, не надо закладываться на `Загрузки`
             - 'API-key' нельзя хардкодить, его нужно передавать как переменную окружения
+    - HW2:
+        * Status: Done (Jan 9)
+        * Notes:
+            - Ты как-то посреди работы перешёл с TBD на git-flow..._
 - Крынский Павел
     - https://github.com/flomikoon/Currency-Conversion
     - HW1:
