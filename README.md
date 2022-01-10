@@ -323,10 +323,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - `develop` не ходит в `master`, для этого есть `release`
             - нужно поместить вызов `gradle` в `Dockerfile`, чтобы это работало
-    - HW1:
-        * Status: NOT Done (Dec 29)
+    - HW2:
+        * Status: Done (Jan 9)
         * Notes:
-            - По условиям задачи, у нас должны быть беждики на обе долгоживущие ветки и возможность запускать CI руками.
+            - Нельзя делать прямые коммиты в `master` ветку!!
 - Курняков Пётр
     - https://gitlab.com/pupptmstr/ass
     - HW1:
