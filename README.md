@@ -193,12 +193,19 @@ Feel free to ask all your questions on the course's telegram channel.
             - Никаких прямых коммитов в `develop`
 - Чернышев Ярослав
     - https://github.com/Jar-Cher/SoftEngPrj
-        - HW1:
+    - HW1:
         * Status: NOT Done (Jan 6)
         * Notes:
             - IDE-специфичные файлы в репо, нужно убрать и закрыть `.gitignore`
             - прямые коммиты в `master` и `develop`
             - Часть issues слинковано с коммитами, а часть нет. К примеру, какой код решает эту задачу <https://github.com/Jar-Cher/SoftEngPrj/issues/2> ?
+- Смирнов Никита
+    - https://github.com/3oDoR/TemperatureConverter
+    - HW1:
+        * Status: Done (Jan 12)
+        * Notes:
+            - Стоило бы уже придерживаться TBD... `master` должен быть такой же долгоживущей веткой, как и `develop`. Теперь для второй лабы нужно всё сделать очень аккуратно, учитывая нынешнюю конфигурацию веток.
+            - Исправить `gitconfig` (<https://github.com/3oDoR/TemperatureConverter/commits/develop>)
 
 ## 80203
 
