@@ -99,7 +99,7 @@ Feel free to ask all your questions on the course's telegram channel.
             - `master` форкнут от... Уф... Граф веток взрывает мозг. Но радует наличие `release` ветки.
             - Для реализации функционала следует использовать ветки с префиксом `feature/`
     - HW2:
-        * Status: NOT Done (Dec 25)
+        * Status: Done (Jan 11)
         * Notes:
             - В git-flow мы не делаем прямые коммиты в `master` и `develop`
             - В git-flow ьф не мерджим `develop` в `master`, для этого есть ветка `release`. Нужно откатить последний коммит в `master` и исправить это
