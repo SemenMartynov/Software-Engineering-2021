@@ -420,6 +420,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - В Trunk Based Development нам не нужна как таковая ветка `release`, там мы активно используем теги
             - Если есть желание разделить ветки по назначению (`feature` vs `ops`), лучше импользовать префикс разделённый символом `\`
+    - HW2:
+        * Status: Done (Jan 12)
+        * Notes:
+            - Строго говоря, мы оговаривали для каких веток должен тригериться CI...    
 - Шелаев Никита
     - https://github.com/ShelaevNikita/Currency_converter
     - HW1:
