@@ -125,7 +125,7 @@ Feel free to ask all your questions on the course's telegram channel.
     - HW2:
         * Status: Done (Jan 9)
         * Notes:
-            - Ты как-то посреди работы перешёл с TBD на git-flow..._
+            - Ты как-то посреди работы перешёл с TBD на git-flow...
 - Крынский Павел
     - https://github.com/flomikoon/Currency-Conversion
     - HW1:
@@ -135,6 +135,10 @@ Feel free to ask all your questions on the course's telegram channel.
             - Ветка `develop` не мерджится на прямую в `master`
             - Разобраться с `.gitconfig`
             - Служебные файлы (`.idea`) нужно закрывать от индексирования через `.gitignore`
+    - HW2:
+        * Status: Done (Jan 12)
+        * Notes:
+            - Если игнорировать замечания, то тяжело чему-то научиться. Всё так же: Разобраться с `.gitconfig` и `.gitignore`
 - Рубан Станислав
     - https://gitlab.com/pupptmstr/ass
     - HW1:
