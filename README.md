@@ -148,6 +148,10 @@ Feel free to ask all your questions on the course's telegram channel.
             - не все фичи доведены до мерджа с основной веткой
             - не очень понимаю, что такое `.run`, но подозреваю что это должно быть за `.gitignore`
             - разобраться с `.gitconfig`
+    - HW2:
+        * Status: Done (Jan 14)
+        * Notes:
+            -
 - Смирнов Лев
     - https://github.com/Lion-Hunter/UsdToEurConverter
     - HW1:
@@ -349,6 +353,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Пароли к БД стоит передавать через переменные окружения
             - разобраться с `.gitconfig`
+    - HW2:
+        * Status: Done (Jan 14)
+        * Notes:
+            -
 - Танашкин В.А.
     - https://github.com/NastyPill/JokesService
     - HW1:
