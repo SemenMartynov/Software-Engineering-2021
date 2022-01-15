@@ -23,6 +23,6 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80201
 
-- Dimukhametov Marat — https://github.com/maratdin7/file-storage
+- Dimukhametov Marat — https://github.com/maratdin7/file-storage 2 лабораторная
 -
 -
