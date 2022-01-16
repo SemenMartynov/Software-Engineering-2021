@@ -486,6 +486,10 @@ Feel free to ask all your questions on the course's telegram channel.
             - Прямой коммит в `develop` с бампов мерсии (`12a1b96`), для этого лучше использовать `release`
             - Ещё один прямой коммит, для которого нужно использовать `feature` (`1ef1090`). Рефакторинг не несёт прямой ценности для бизнеса (читать Фаулера).
             - ветка `hotfix` не возвращена в `develop` (`d1116cd`).
+    - HW2:
+        * Status: Done (Jan 15)
+        * Notes:
+            - 
 - Петров Виталий
     - https://github.com/ADsty/temperature_convertor
     - HW1:
