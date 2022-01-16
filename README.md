@@ -45,6 +45,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Не должно быть прямых коммитов в `master` (`2c79d36`, `8c7f2a2`)
             - Некоторые ветки (9, 7 ,12) форкнуты не от `master`
+    - HW2:
+        * Status: Done (Jan 15)
+        * Notes:
+            - `workflow` с паблишингом это класс, но прямых коммитов в `master` всё равно быть не должно.
 
 ## 80202
 
