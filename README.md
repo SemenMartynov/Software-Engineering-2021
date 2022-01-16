@@ -19,7 +19,7 @@ Feel free to ask all your questions on the course's telegram channel.
 
 - 
 - 
-- Танашкин Валерий -- https://github.com/NastyPill/JokesService/tree/develop
+- Танашкин Валерий -- https://github.com/NastyPill/JokesService/tree/main
 
 ## 80201
 
