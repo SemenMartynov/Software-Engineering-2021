@@ -45,6 +45,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Не должно быть прямых коммитов в `master` (`2c79d36`, `8c7f2a2`)
             - Некоторые ветки (9, 7 ,12) форкнуты не от `master`
+    - HW2:
+        * Status: Done (Jan 15)
+        * Notes:
+            - `workflow` с паблишингом это класс, но прямых коммитов в `master` всё равно быть не должно.
 
 ## 80202
 
@@ -99,7 +103,7 @@ Feel free to ask all your questions on the course's telegram channel.
             - `master` форкнут от... Уф... Граф веток взрывает мозг. Но радует наличие `release` ветки.
             - Для реализации функционала следует использовать ветки с префиксом `feature/`
     - HW2:
-        * Status: NOT Done (Dec 25)
+        * Status: Done (Jan 11)
         * Notes:
             - В git-flow мы не делаем прямые коммиты в `master` и `develop`
             - В git-flow ьф не мерджим `develop` в `master`, для этого есть ветка `release`. Нужно откатить последний коммит в `master` и исправить это
@@ -122,6 +126,10 @@ Feel free to ask all your questions on the course's telegram channel.
             - Ветки `master` и `develop` перепутаны местами: `feature` векти мерджатся в `develop`.
             - в качестве временной директории можно использовать `/tmp`, не надо закладываться на `Загрузки`
             - 'API-key' нельзя хардкодить, его нужно передавать как переменную окружения
+    - HW2:
+        * Status: Done (Jan 9)
+        * Notes:
+            - Ты как-то посреди работы перешёл с TBD на git-flow...
 - Крынский Павел
     - https://github.com/flomikoon/Currency-Conversion
     - HW1:
@@ -131,6 +139,10 @@ Feel free to ask all your questions on the course's telegram channel.
             - Ветка `develop` не мерджится на прямую в `master`
             - Разобраться с `.gitconfig`
             - Служебные файлы (`.idea`) нужно закрывать от индексирования через `.gitignore`
+    - HW2:
+        * Status: Done (Jan 12)
+        * Notes:
+            - Если игнорировать замечания, то тяжело чему-то научиться. Всё так же: Разобраться с `.gitconfig` и `.gitignore`
 - Рубан Станислав
     - https://gitlab.com/pupptmstr/ass
     - HW1:
@@ -140,6 +152,10 @@ Feel free to ask all your questions on the course's telegram channel.
             - не все фичи доведены до мерджа с основной веткой
             - не очень понимаю, что такое `.run`, но подозреваю что это должно быть за `.gitignore`
             - разобраться с `.gitconfig`
+    - HW2:
+        * Status: Done (Jan 14)
+        * Notes:
+            -
 - Смирнов Лев
     - https://github.com/Lion-Hunter/UsdToEurConverter
     - HW1:
@@ -178,6 +194,30 @@ Feel free to ask all your questions on the course's telegram channel.
             - Разобраться с `.gitconfig`
             - Нельзя делать прямые коммиты в `develop`
             - Ветка `develop` не должна мерджиться в `master`
+- Федоров Сергей
+    - https://github.com/Joker707/vol_converter
+    - HW1:
+        * Status: NOT Done (Jan 6)
+        * Notes:
+            - Нет файла с лицензией
+            - IDE-специфичные файлы в репо, нужно убрать и закрыть `.gitignore`
+            - Некорректный `Dockerfile`: у меня нет `/out...` для копирования оттуда бинарника. Нужно сделать стейдж для сборки и стейдж для запуска
+            - Никаких прямых коммитов в `develop`
+- Чернышев Ярослав
+    - https://github.com/Jar-Cher/SoftEngPrj
+    - HW1:
+        * Status: NOT Done (Jan 6)
+        * Notes:
+            - IDE-специфичные файлы в репо, нужно убрать и закрыть `.gitignore`
+            - прямые коммиты в `master` и `develop`
+            - Часть issues слинковано с коммитами, а часть нет. К примеру, какой код решает эту задачу <https://github.com/Jar-Cher/SoftEngPrj/issues/2> ?
+- Смирнов Никита
+    - https://github.com/3oDoR/TemperatureConverter
+    - HW1:
+        * Status: Done (Jan 12)
+        * Notes:
+            - Стоило бы уже придерживаться TBD... `master` должен быть такой же долгоживущей веткой, как и `develop`. Теперь для второй лабы нужно всё сделать очень аккуратно, учитывая нынешнюю конфигурацию веток.
+            - Исправить `gitconfig` (<https://github.com/3oDoR/TemperatureConverter/commits/develop>)
 
 ## 80203
 
@@ -202,7 +242,7 @@ Feel free to ask all your questions on the course's telegram channel.
             - В `git-flow` нет ветки, с именем `bugfix`.
             - Для линковки коммитов с задачами, в комментарии к коммиту указывается номер `issue`, т.е. руками `issue` закрывать не нужно
     - HW2:
-        * Status: NOT Done (Dec 25)
+        * Status: Done (Jan 3)
         * Notes:
             - Добавить возможность запускать тесты руками
             - Даже в Trunk Based Development мы не делаем прямые коммиты в `master`
@@ -228,16 +268,15 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Ветка `release` форкается от `develop`. Потому она и называется короткожевущей)
 - Невоструева Яна
-    - https://github.com/NevostruevaYana/CurrencyConverter
+    - https://github.com/NevostruevaYana/Software-Engineering-2021-lab1
     - HW1:
         * Status: Done (Dec 12)
         * Notes:
             - `develop` и `master` не могут мерджиться друг в друга
     - HW2:
-        * Status: NOT Done (Dec 31)
+        * Status: Done (Jan 8)
         * Notes:
-            - Бейдижики должны быть для обеих веток, раз ты используешь git flow. И ещё возможность запускать CI руками.
-            - Не должно быть прямых коммитов в `master` ветку, для этого есть `hotfix/`
+            - Осталось ещё `hotfix/` вернуть в `develop`
 - Медведев Данил
     - https://github.com/dVede/ConsoleWeatherApp
     - HW1:
@@ -245,6 +284,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - под конец `develop` был замерджен в `master`
             - Хорошей практикой считается разделять префикс `feature` от описание ветки символом `/`
+    - HW2:
+        * Status: NOT Done (Jan 4)
+        * Notes:
+            - Должно быть два беджика, для каждой из долгоживущих веток
 - Шрамков Максим
     - https://github.com/k1unk/engineering_lab_1
     - HW1:
@@ -254,6 +297,13 @@ Feel free to ask all your questions on the course's telegram channel.
             - каждая `feature`-ветка форкается от `develop`, и туда же возвращается
             - в `main` изменения попадают через `felease/`
             - скрыть `.idea` под `.gitignore`
+    - HW2:
+        * Status: NOT Done (Jan 14)
+        * Notes:
+            - Утеряна вся история изменений, это необходимо восстановить. Не вижу `issues` и линковки с ними.
+            - не должно быть прямых коммитов в `develop` и `master`
+            - не работает Dockerfile (вообще, это ещё к 1-й работе замечание). У меня на компьютере нет бинарника, которые предлагается запускать. Первым этапом должна быть его сборка.
+            - Нет беджика для второй ветки
 - Хвацкин Леонид
     - https://github.com/TheGreenBeaver/Too-Doo
     - HW1:
@@ -261,12 +311,20 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Вроде всё так красиво, но почему `master` и `develop` в конце указывают на один коммит?
             - Предлагаю ещё в GitHub оформить как релиз, чтоб вообще законченный проект был (https://github.com/TheGreenBeaver/Too-Doo/releases)
+    - HW2:
+        * Status: NOT Done (Jan 16)
+        * Notes:
+            - Всё красиво, но нужно добавить возможность запуска `workflow` руками.
 - Рубша Анастасия
     - https://github.com/Valkiriya228/SoftwareEngLabFirst
     - HW1:
         * Status: Done (Nov 30)
         * Notes:
             - Я так понимаю, это попытка Trunk Based Development. Мы каждую новую `feature` форкаем от главной ветки, и обратно её туда сливаем. Теоретически возможна ситуация, когда мы `feature`-ветку форкаем от `feature`-ветки же, но это крайне не типично для Trunk Based Development (собственно одно из его основных назначений - бороться с такими ситуациями).
+            - служебные директории (`.idea`) не должны попадать в кодобазу (`.gitignore`).
+    - HW2:
+        * Status: Done (Jan 9)
+        * Notes:
             - служебные директории (`.idea`) не должны попадать в кодобазу (`.gitignore`).
 - Астудина Анастасия
     - https://github.com/astudina/SoftwareEngineering-Lab1
@@ -275,6 +333,11 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Даже такие задачи, как добавление лицензии или картинки должны решаться через соответствующие `feature/` ветки, нельзя коммитить прямо в `master`
             - Веткам лучше давать более осмысленные названия, это поможет в будущем не запутаться
+    - HW2:
+        * Status: NOT Done (Jan 8)
+        * Notes:
+            - Нет возможности ручного запуска `workflow`
+            - Не должно быть прямых коммитов в `master` (откатить последний коммит)
 - Зайцева Елизавета
     - https://github.com/LizaZaytseva/SE_lab1_converter
     - HW1:
@@ -282,6 +345,11 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Третья похожая по стилю работа... Ну ладно. Важно другое, важно не перемешивать ветки при Trunk Based Development.
             - Ну и `Docker` это скорее про демоны, чем про обёртку над интерактивными `cli` утилитами
+    - HW2:
+        * Status: NOT Done (Jan 8)
+        * Notes:
+            - Как и у Анастасии: убрать последний коммит из `master` и (через `feature` ветку) исправить `workflow` для возможности запускать руками
+            - убрать из репо служебную папку `IDE`, скрыть её за `.gitignore`
 - Васильев Роман
     - https://github.com/killawetz/Software-Engineering-lab1
     - HW1:
@@ -289,10 +357,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - `develop` не ходит в `master`, для этого есть `release`
             - нужно поместить вызов `gradle` в `Dockerfile`, чтобы это работало
-    - HW1:
-        * Status: NOT Done (Dec 29)
+    - HW2:
+        * Status: Done (Jan 9)
         * Notes:
-            - По условиям задачи, у нас должны быть беждики на обе долгоживущие ветки и возможность запускать CI руками.
+            - Нельзя делать прямые коммиты в `master` ветку!!
 - Курняков Пётр
     - https://gitlab.com/pupptmstr/ass
     - HW1:
@@ -300,6 +368,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Пароли к БД стоит передавать через переменные окружения
             - разобраться с `.gitconfig`
+    - HW2:
+        * Status: Done (Jan 14)
+        * Notes:
+            -
 - Танашкин В.А.
     - https://github.com/NastyPill/JokesService
     - HW1:
@@ -307,6 +379,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - в `main` ветку так ничего и не попало, нужно сделать `release` ветку для завершения проекта
             - `feature` векти остались висеть в воздухе... Нужно сделать PR, и мерж коммит, чтоб история изменений оставалась последовательной.
+    - HW2:
+        * Status: Done (Jan 16)
+        * Notes:
+            - не должно быть прямых коммитов в `master`
 - Викторов Илья
     - https://github.com/Victorov-I-A/CurrencyConverter
     - HW1:
@@ -349,7 +425,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Status: Done (Dec 25)
         * Notes:
             - Нет управления ветками
-
+    - HW2:
+        * Status: Done (Jan 3)
+        * Notes:
+            - Обсудили в PRе
 - Солянкин Илья
     - https://github.com/Evil-Enot/DegreeConverter/
     - HW1:
@@ -379,6 +458,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - В Trunk Based Development нам не нужна как таковая ветка `release`, там мы активно используем теги
             - Если есть желание разделить ветки по назначению (`feature` vs `ops`), лучше импользовать префикс разделённый символом `\`
+    - HW2:
+        * Status: Done (Jan 12)
+        * Notes:
+            - Строго говоря, мы оговаривали для каких веток должен тригериться CI...    
 - Шелаев Никита
     - https://github.com/ShelaevNikita/Currency_converter
     - HW1:
@@ -411,6 +494,10 @@ Feel free to ask all your questions on the course's telegram channel.
             - Прямой коммит в `develop` с бампов мерсии (`12a1b96`), для этого лучше использовать `release`
             - Ещё один прямой коммит, для которого нужно использовать `feature` (`1ef1090`). Рефакторинг не несёт прямой ценности для бизнеса (читать Фаулера).
             - ветка `hotfix` не возвращена в `develop` (`d1116cd`).
+    - HW2:
+        * Status: Done (Jan 15)
+        * Notes:
+            - 
 - Петров Виталий
     - https://github.com/ADsty/temperature_convertor
     - HW1:
