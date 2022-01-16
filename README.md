@@ -379,6 +379,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - в `main` ветку так ничего и не попало, нужно сделать `release` ветку для завершения проекта
             - `feature` векти остались висеть в воздухе... Нужно сделать PR, и мерж коммит, чтоб история изменений оставалась последовательной.
+    - HW2:
+        * Status: Done (Jan 16)
+        * Notes:
+            - не должно быть прямых коммитов в `master`
 - Викторов Илья
     - https://github.com/Victorov-I-A/CurrencyConverter
     - HW1:
