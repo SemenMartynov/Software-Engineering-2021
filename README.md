@@ -48,6 +48,11 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Ветка `develop` не должна мерджиться в `master`
             - Управляеть версиями лучше через теги в `git`, либо в `release` ветке
+    - HW1:
+        * Status: NOT Done (Jan 17)
+        * Notes:
+            - никаких прямых коммитов в `master` ветку, их нужно убрать!
+            - Я вижу `develop` ветку, значит по заданию должно быть тестирование двух веток и две бейджика.
 - Загороднов Дмитрий
     - https://github.com/DmitryZagorodnov/btc_to_rub_converter
     - HW1:
