@@ -36,6 +36,11 @@ Feel free to ask all your questions on the course's telegram channel.
             - Разобраться с `.gitconfig`
             - `.idea` в `.gitconfig`
             - Никаких прямых коммитов в `master`
+    - HW2:
+        * Status: NOT Done (Jan 17)
+        * Notes:
+            - Учитывая, что я вижу ветку `develop`, я ожидаю от проекта git-flow, и, следовательно, тестирования обеих веток + два беджика
+            - Никаких прямых коммитов в `master`
 - Есин Никита
     - https://github.com/KazuruK/Software-Engineering-2021
     - HW1:
