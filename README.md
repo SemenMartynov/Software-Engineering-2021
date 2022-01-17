@@ -11,7 +11,7 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80202
 
-- Федоров Сергей: https://github.com/Joker707/vol_converter
+- Федоров Сергей: https://github.com/Joker707/Vol_conv
 -
 -
 
