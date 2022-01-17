@@ -466,6 +466,13 @@ Feel free to ask all your questions on the course's telegram channel.
             - Ветки `develop` и `master` не пересекаются, нужна ветка `release`.
             - Навести порядок в `.gitconfig`
             - Скрыть `.idea` за `.gitignore`
+    - HW2:
+        * Status: NOT Done (Jan 17)
+        * Notes:
+            - Нельзя делать прямые коммиты в `master`, их нужно убрать.
+            - Навести порядок в `.gitconfig`
+            - по условию задачи, беджики должны быть у обеих веток
+            - нет возможности запустить тесты руками
 - Dimukhametov Marat
     - https://github.com/maratdin7/file-storage
     - HW1:
