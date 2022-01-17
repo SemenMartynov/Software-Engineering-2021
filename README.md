@@ -266,7 +266,7 @@ Feel free to ask all your questions on the course's telegram channel.
             - под конец `develop` был замерджен в `master`
             - Хорошей практикой считается разделять префикс `feature` от описание ветки символом `/`
     - HW2:
-        * Status: NOT Done (Jan 4)
+        * Status: Done (Jan 17)
         * Notes:
             - Должно быть два беджика, для каждой из долгоживущих веток
 - Шрамков Максим
