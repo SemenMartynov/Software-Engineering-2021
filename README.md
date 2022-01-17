@@ -33,6 +33,9 @@ Feel free to ask all your questions on the course's telegram channel.
         * Status: NOT Done (Nov 30)
         * Notes:
             - Я не понимаю какая это `git`-модель
+
+    -https://github.com/maksem-va/ValuteConverter
+    Появилось второе задание. Но git-flow подпортился из-за неосторожного движения, простите(
 - Есин Никита
     - https://github.com/KazuruK/Software-Engineering-2021
     - HW1:
