@@ -61,6 +61,12 @@ Feel free to ask all your questions on the course's telegram channel.
             - `Dockerfile`, как правило, идёт без расширения `.txt` на конце
             - `Python` отлично поддерживает объекто-ориентированный подход, это позволили бы гибко управлять приложением
             - Имена хостов и номера портов стоит выносить в файл конфигурации и переопределять переменными окружения
+- Юсупова Диана
+    - https://github.com/diana-yusupova999/SoftwareEngineering
+    - HW1:
+        * Status: Done (Jan 17)
+        * Notes:
+            - Нельзя делать прямые коммиты в `master`
 
 ## 80202
 
