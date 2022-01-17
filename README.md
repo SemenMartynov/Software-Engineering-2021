@@ -21,12 +21,14 @@ Feel free to ask all your questions on the course's telegram channel.
             - `feature`-ветки не должны порождаться от `main`, для этого есть `develop`
             - `develop` не должен мерджиться в `main`, для этого есть `release`
 - Дзюба Богдан
+    - https://github.com/Bogunto14/Software-Engineering-lab1
     - HW1:
         * Status: NOT Done (Nov 30)
         * Notes:
             - Я не понимаю какая это `git`-модель, это нужно исправить
             - `Docker` это не обёртка над консольными утилитами, это изолированная среда для сетевых сервисов
 - Maksem Vasiliy
+    - https://github.com/maksem-va/ProgEngineering
     - HW1:
         * Status: NOT Done (Nov 30)
         * Notes:
@@ -165,29 +167,8 @@ Feel free to ask all your questions on the course's telegram channel.
             - в `main` напрямую ничего коммитить нельзя, для этого есть `hotfix`
             - для `feature`-веток стоит использовать префикс `feature/`
             - в комментарии к коммиту рекомендуется использовать номер `issue`, или отвечать на вопрос "зачем" делаются эти изменения
-- Чернышев Ярослав
-    - https://github.com/Jar-Cher/SoftEngPrj
-    - HW1:
-        * Status: NOT Done (Dec 4)
-        * Notes:
-            - Путаница в ветках, куча прямых коммитов в `master` и `develop`, потом ещё и мердж `master` в `develop`.
-            - Коммиты и `issues` никак не слинкованы, `issues` вообще закрыты руками.
-- Fedorov Sergey
-    - https://github.com/Joker707/SE_converter
-    - HW1:
-        * Status: NOT Done (Dec 6)
-        * Notes:
-            - не выполнены требования, коммиты и `issues` на связаны
-- Smirnov Nikita
-    - https://github.com/3oDoR/TemperatureConverter
-    - HW1:
-        * Status: NOT Done (Dec 9)
-        * Notes:
-            - Нельзя делать прямые коммиты в `develop`, для этого есть `feature`
-            - Нельзя делать мерджить `develop` и `master`, для этого есть `release`
-            - ...а теперь представь, что у тебя релиз, и срочно нужно откатить какую-то фичу?
 - Кейта Абубакар Сидики
-    - https://github.com/3oDoR/TemperatureConverter
+    - https://github.com/Keita18/currencyConverter
     - HW1:
         * Status: Done (Dec 13)
         * Notes:
