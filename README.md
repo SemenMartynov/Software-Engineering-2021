@@ -52,6 +52,9 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - `workflow` с паблишингом это класс, но прямых коммитов в `master` всё равно быть не должно.
 
+- Юсупова Диана
+    - https://github.com/diana-yusupova999/SoftwareEngineering
+
 ## 80202
 
 - Кобыжев Александр
