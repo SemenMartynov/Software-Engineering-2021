@@ -5,7 +5,7 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80101
 
-- Дзюба Богдан Александрович -- https://github.com/Bogunto14/Software-Engineering-lab1
+- Дзюба Богдан Александрович -- https://github.com/Bogunto14/Software-Engineering-lab1v2
 - Name -- URL
 -
 
