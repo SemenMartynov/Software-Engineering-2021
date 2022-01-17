@@ -17,7 +17,7 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80203
 
-- Шрамков Максим - https://github.com/k1unk/lab_2_engineering
+- Шрамков Максим - https://github.com/k1unk/engineering_lab_1
 -
 -
 
