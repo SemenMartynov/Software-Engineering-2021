@@ -29,11 +29,13 @@ Feel free to ask all your questions on the course's telegram channel.
             - `Docker` это не обёртка над консольными утилитами, это изолированная среда для сетевых сервисов
             - нет файла лицензии
 - Maksem Vasiliy
-    - https://github.com/maksem-va/ProgEngineering
+    - https://github.com/maksem-va/ValuteConverter
     - HW1:
-        * Status: NOT Done (Nov 30)
+        * Status: Done (Jan 17)
         * Notes:
-            - Я не понимаю какая это `git`-модель
+            - Разобраться с `.gitconfig`
+            - `.idea` в `.gitconfig`
+            - Никаких прямых коммитов в `master`
 - Есин Никита
     - https://github.com/KazuruK/Software-Engineering-2021
     - HW1:
