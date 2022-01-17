@@ -21,12 +21,13 @@ Feel free to ask all your questions on the course's telegram channel.
             - `feature`-ветки не должны порождаться от `main`, для этого есть `develop`
             - `develop` не должен мерджиться в `main`, для этого есть `release`
 - Дзюба Богдан
-    - https://github.com/Bogunto14/Software-Engineering-lab1
+    - https://github.com/Bogunto14/Software-Engineering-lab1v2
     - HW1:
-        * Status: NOT Done (Nov 30)
+        * Status: Done (Jan 17)
         * Notes:
-            - Я не понимаю какая это `git`-модель, это нужно исправить
+            - Я по прежнему не пониманию какая это модель ветвления, но тут хотя бы появились ветки
             - `Docker` это не обёртка над консольными утилитами, это изолированная среда для сетевых сервисов
+            - нет файла лицензии
 - Maksem Vasiliy
     - https://github.com/maksem-va/ProgEngineering
     - HW1:
