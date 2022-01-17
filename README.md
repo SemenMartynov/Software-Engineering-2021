@@ -293,7 +293,7 @@ Feel free to ask all your questions on the course's telegram channel.
             - Вроде всё так красиво, но почему `master` и `develop` в конце указывают на один коммит?
             - Предлагаю ещё в GitHub оформить как релиз, чтоб вообще законченный проект был (https://github.com/TheGreenBeaver/Too-Doo/releases)
     - HW2:
-        * Status: NOT Done (Jan 16)
+        * Status: Done (Jan 17)
         * Notes:
             - Всё красиво, но нужно добавить возможность запуска `workflow` руками.
 - Рубша Анастасия
