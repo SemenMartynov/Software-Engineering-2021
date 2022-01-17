@@ -353,7 +353,7 @@ Feel free to ask all your questions on the course's telegram channel.
         * Status: Done (Jan 14)
         * Notes:
             -
-- Танашкин В.А.
+- Танашкин Валерий
     - https://github.com/NastyPill/JokesService
     - HW1:
         * Status: Done (Nov 30)
