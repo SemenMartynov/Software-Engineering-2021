@@ -11,7 +11,7 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80202
 
--  Smirnov Nikita -- https://github.com/3oDoR/TemperatureConverter
+-   Smirnov Nikita -- https://github.com/3oDoR/TemperatureConverter
 -
 -
 
