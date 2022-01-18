@@ -229,6 +229,12 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Судя по наличию ветки `main`, думаю что это git-flow. В `README.md` ни одного бейджика
             - Всё те же проблемы с `.gitconfig`
+- Лихолетов Михаил
+    - https://github.com/McCreeMainer/urban-dictionary-app
+    - HW1:
+        * Status: Done (Jan 18)
+        * Notes:
+            - 
 
 ## 80203
 
