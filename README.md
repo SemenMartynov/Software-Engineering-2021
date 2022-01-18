@@ -204,7 +204,7 @@ Feel free to ask all your questions on the course's telegram channel.
             - Нельзя делать прямые коммиты в `develop`
             - Ветка `develop` не должна мерджиться в `master`
     - HW2:
-        * Status: NOT Done (Jan 18)
+        * Status: Done (Jan 18)
         * Notes:
             - Нет файла лицензии
             - нет возможности запускать тесты руками
