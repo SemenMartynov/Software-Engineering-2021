@@ -203,6 +203,11 @@ Feel free to ask all your questions on the course's telegram channel.
             - Разобраться с `.gitconfig`
             - Нельзя делать прямые коммиты в `develop`
             - Ветка `develop` не должна мерджиться в `master`
+    - HW2:
+        * Status: NOT Done (Jan 18)
+        * Notes:
+            - Нет файла лицензии
+            - нет возможности запускать тесты руками
 - Федоров Сергей
     - https://github.com/Joker707/vol_converter
     - HW1:
