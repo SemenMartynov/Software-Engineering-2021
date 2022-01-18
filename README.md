@@ -224,6 +224,12 @@ Feel free to ask all your questions on the course's telegram channel.
         * Status: Done (Jan 18)
         * Notes:
             - что-то странное с тем, как изменения из `develop` попали в `master`, т.е. мердж как-то криво сделан, но сейчас хотя бы есть ветки.
+    - HW2:
+        * Status: NOT Done (Jan 18)
+        * Notes:
+            - У коммита `e80c801d7491159a84334461bf2ba18dde252557` только один предок. А он должен быть результатом мерджа ветки `release` в ветку `master`
+            - Каким образом вдруг `3bd43da1a51e94949521ed43ac37cbb3ecd30c76` имеет родителем коммит в `master`, если он должен форкаться от `develop`?
+            - Нет возможности запускать руками
 - Смирнов Никита
     - https://github.com/3oDoR/TemperatureConverter
     - HW1:
