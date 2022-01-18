@@ -1,3 +1,6 @@
+# Software-Engineering-2021
+Peter the Great St. Petersburg Polytechnic University: Software Engineering course 2021
+
 Feel free to ask all your questions on the course's telegram channel.
 
 ## 80101
@@ -18,18 +21,26 @@ Feel free to ask all your questions on the course's telegram channel.
             - `feature`-ветки не должны порождаться от `main`, для этого есть `develop`
             - `develop` не должен мерджиться в `main`, для этого есть `release`
 - Дзюба Богдан
-    - https://github.com/Bogunto14/Software-Engineering-lab1
+    - https://github.com/Bogunto14/Software-Engineering-lab1v2
     - HW1:
-        * Status: NOT Done (Nov 30)
+        * Status: Done (Jan 17)
         * Notes:
-            - Я не понимаю какая это `git`-модель, это нужно исправить
+            - Я по прежнему не пониманию какая это модель ветвления, но тут хотя бы появились ветки
             - `Docker` это не обёртка над консольными утилитами, это изолированная среда для сетевых сервисов
+            - нет файла лицензии
 - Maksem Vasiliy
-    - https://github.com/maksem-va/ProgEngineering
+    - https://github.com/maksem-va/ValuteConverter
     - HW1:
-        * Status: NOT Done (Nov 30)
+        * Status: Done (Jan 17)
         * Notes:
-            - Я не понимаю какая это `git`-модель
+            - Разобраться с `.gitconfig`
+            - `.idea` в `.gitconfig`
+            - Никаких прямых коммитов в `master`
+    - HW2:
+        * Status: NOT Done (Jan 17)
+        * Notes:
+            - Учитывая, что я вижу ветку `develop`, я ожидаю от проекта git-flow, и, следовательно, тестирования обеих веток + два беджика
+            - Никаких прямых коммитов в `master`
 - Есин Никита
     - https://github.com/KazuruK/Software-Engineering-2021
     - HW1:
@@ -37,8 +48,13 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Ветка `develop` не должна мерджиться в `master`
             - Управляеть версиями лучше через теги в `git`, либо в `release` ветке
-    - HM2:
-        Есин Никита — https://github.com/KazuruK/Software-Engineering-2021 Созданы тесты и овормлен Actions.
+    - HW1:
+        * Status: NOT Done (Jan 17) 
+        * Notes:
+            - никаких прямых коммитов в `master` ветку, их нужно убрать!
+            - Я вижу `develop` ветку, значит по заданию должно быть тестирование двух веток и две бейджика.
+            
+        ***Исправлено***
 - Загороднов Дмитрий
     - https://github.com/DmitryZagorodnov/btc_to_rub_converter
     - HW1:
@@ -50,6 +66,21 @@ Feel free to ask all your questions on the course's telegram channel.
         * Status: Done (Jan 15)
         * Notes:
             - `workflow` с паблишингом это класс, но прямых коммитов в `master` всё равно быть не должно.
+- Джужуев Эдуард
+    - https://github.com/Shadow-Haund/Lab1_OPi
+    - HW1:
+        * Status: Done (Jan 17)
+        * Notes:
+            - Нет файла с лицензией
+            - `Dockerfile`, как правило, идёт без расширения `.txt` на конце
+            - `Python` отлично поддерживает объекто-ориентированный подход, это позволили бы гибко управлять приложением
+            - Имена хостов и номера портов стоит выносить в файл конфигурации и переопределять переменными окружения
+- Юсупова Диана
+    - https://github.com/diana-yusupova999/SoftwareEngineering
+    - HW1:
+        * Status: Done (Jan 17)
+        * Notes:
+            - Нельзя делать прямые коммиты в `master`
 
 ## 80202
 
@@ -177,19 +208,16 @@ Feel free to ask all your questions on the course's telegram channel.
 - Федоров Сергей
     - https://github.com/Joker707/vol_converter
     - HW1:
-        * Status: NOT Done (Jan 6)
+        * Status: Done (Jan 17)
         * Notes:
-            - Нет файла с лицензией
-            - IDE-специфичные файлы в репо, нужно убрать и закрыть `.gitignore`
-            - Некорректный `Dockerfile`: у меня нет `/out...` для копирования оттуда бинарника. Нужно сделать стейдж для сборки и стейдж для запуска
-            - Никаких прямых коммитов в `develop`
+            - Всё очень путанно (явно есть проблемы с тем, откуда форкались ветки), но хотя бы ветки есть.
 - Чернышев Ярослав
     - https://github.com/Jar-Cher/SoftEngPrj
     - HW1:
-        * Status: NOT Done (Jan 6)
+        * Status: NOT Done (Jan 17)
         * Notes:
+            - Сейчас вообще непонятно какой подход к управлению ветками используется: и `master` и `develop` указывают на один коммит
             - IDE-специфичные файлы в репо, нужно убрать и закрыть `.gitignore`
-            - прямые коммиты в `master` и `develop`
             - Часть issues слинковано с коммитами, а часть нет. К примеру, какой код решает эту задачу <https://github.com/Jar-Cher/SoftEngPrj/issues/2> ?
 - Смирнов Никита
     - https://github.com/3oDoR/TemperatureConverter
@@ -265,7 +293,7 @@ Feel free to ask all your questions on the course's telegram channel.
             - под конец `develop` был замерджен в `master`
             - Хорошей практикой считается разделять префикс `feature` от описание ветки символом `/`
     - HW2:
-        * Status: NOT Done (Jan 4)
+        * Status: Done (Jan 17)
         * Notes:
             - Должно быть два беджика, для каждой из долгоживущих веток
 - Шрамков Максим
@@ -278,12 +306,13 @@ Feel free to ask all your questions on the course's telegram channel.
             - в `main` изменения попадают через `felease/`
             - скрыть `.idea` под `.gitignore`
     - HW2:
-        * Status: NOT Done (Jan 14)
+        * Status: NOT Done (Jan 17)
         * Notes:
             - Утеряна вся история изменений, это необходимо восстановить. Не вижу `issues` и линковки с ними.
-            - не должно быть прямых коммитов в `develop` и `master`
-            - не работает Dockerfile (вообще, это ещё к 1-й работе замечание). У меня на компьютере нет бинарника, которые предлагается запускать. Первым этапом должна быть его сборка.
-            - Нет беджика для второй ветки
+            - Не работает `Dockerfile`. В `Dockerfile` необходимо описать сборку бинарного файла из исходников.
+            - скрыть `.idea` под `.gitignore`: бинарные файлы в репозитории появляться не должны! `git` это система версионирования кода, а не бинарных артефактов.
+            - папки `target` с бинарниками в репозитории быть не должно
+            - не очень понятно что вообще тестируется? Какой тест-кейс?
 - Хвацкин Леонид
     - https://github.com/TheGreenBeaver/Too-Doo
     - HW1:
@@ -292,7 +321,7 @@ Feel free to ask all your questions on the course's telegram channel.
             - Вроде всё так красиво, но почему `master` и `develop` в конце указывают на один коммит?
             - Предлагаю ещё в GitHub оформить как релиз, чтоб вообще законченный проект был (https://github.com/TheGreenBeaver/Too-Doo/releases)
     - HW2:
-        * Status: NOT Done (Jan 16)
+        * Status: Done (Jan 17)
         * Notes:
             - Всё красиво, но нужно добавить возможность запуска `workflow` руками.
 - Рубша Анастасия
@@ -314,7 +343,7 @@ Feel free to ask all your questions on the course's telegram channel.
             - Даже такие задачи, как добавление лицензии или картинки должны решаться через соответствующие `feature/` ветки, нельзя коммитить прямо в `master`
             - Веткам лучше давать более осмысленные названия, это поможет в будущем не запутаться
     - HW2:
-        * Status: NOT Done (Jan 8)
+        * Status: Done (Jan 17)
         * Notes:
             - Нет возможности ручного запуска `workflow`
             - Не должно быть прямых коммитов в `master` (откатить последний коммит)
@@ -326,7 +355,7 @@ Feel free to ask all your questions on the course's telegram channel.
             - Третья похожая по стилю работа... Ну ладно. Важно другое, важно не перемешивать ветки при Trunk Based Development.
             - Ну и `Docker` это скорее про демоны, чем про обёртку над интерактивными `cli` утилитами
     - HW2:
-        * Status: NOT Done (Jan 8)
+        * Status: Done (Jan 17)
         * Notes:
             - Как и у Анастасии: убрать последний коммит из `master` и (через `feature` ветку) исправить `workflow` для возможности запускать руками
             - убрать из репо служебную папку `IDE`, скрыть её за `.gitignore`
@@ -352,7 +381,7 @@ Feel free to ask all your questions on the course's telegram channel.
         * Status: Done (Jan 14)
         * Notes:
             -
-- Танашкин В.А.
+- Танашкин Валерий
     - https://github.com/NastyPill/JokesService
     - HW1:
         * Status: Done (Nov 30)
@@ -465,6 +494,13 @@ Feel free to ask all your questions on the course's telegram channel.
             - Ветки `develop` и `master` не пересекаются, нужна ветка `release`.
             - Навести порядок в `.gitconfig`
             - Скрыть `.idea` за `.gitignore`
+    - HW2:
+        * Status: NOT Done (Jan 17)
+        * Notes:
+            - Нельзя делать прямые коммиты в `master`, их нужно убрать.
+            - Навести порядок в `.gitconfig`
+            - по условию задачи, беджики должны быть у обеих веток
+            - нет возможности запустить тесты руками
 - Dimukhametov Marat
     - https://github.com/maratdin7/file-storage
     - HW1:
@@ -485,6 +521,11 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Разобраться с `gitconfig` (https://github.com/ADsty/temperature_convertor/commits/main)
             - Вижу попытку разобраться с `release`, но получился какой-то треш: мы форкается от `develop`, и мерджимся в `master` (при необходимости, обратно в `develop` тоже)
+    - HW2:
+        * Status: NOT Done (Jan 17)
+        * Notes:
+            - Всё те же проблемы с `.gitconfig`
+            - Отсутствует возможность запускать тесты руками
 - Иванов Игорь
     - https://github.com/teacons/btc-eth-converter
     - HW1:
