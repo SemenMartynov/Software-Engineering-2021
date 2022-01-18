@@ -41,6 +41,8 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Учитывая, что я вижу ветку `develop`, я ожидаю от проекта git-flow, и, следовательно, тестирования обеих веток + два беджика
             - Никаких прямых коммитов в `master`
+            - https://github.com/maksem-va/ValuteConverter
+            - дополнил тестированием и вторую ветку
 - Есин Никита
     - https://github.com/KazuruK/Software-Engineering-2021
     - HW1:
