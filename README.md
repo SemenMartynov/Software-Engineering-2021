@@ -158,6 +158,9 @@ Feel free to ask all your questions on the course's telegram channel.
         * Status: Done (Jan 14)
         * Notes:
             -
+- Самсонов Сергей
+    - https://github.com/Ksardas178/SE_labs
+    - HW1:
 - Смирнов Лев
     - https://github.com/Lion-Hunter/UsdToEurConverter
     - HW1:
