@@ -328,7 +328,7 @@ Feel free to ask all your questions on the course's telegram channel.
             - в `main` изменения попадают через `felease/`
             - скрыть `.idea` под `.gitignore`
     - HW2:
-        * Status: NOT Done (Jan 17)
+        * Status: Done (Jan 18)
         * Notes:
             - Утеряна вся история изменений, это необходимо восстановить. Не вижу `issues` и линковки с ними.
             - Не работает `Dockerfile`. В `Dockerfile` необходимо описать сборку бинарного файла из исходников.
