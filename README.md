@@ -199,6 +199,8 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Стоило бы уже придерживаться TBD... `master` должен быть такой же долгоживущей веткой, как и `develop`. Теперь для второй лабы нужно всё сделать очень аккуратно, учитывая нынешнюю конфигурацию веток.
             - Исправить `gitconfig` (<https://github.com/3oDoR/TemperatureConverter/commits/develop>)
+- Лихолетов Михаил
+    - https://github.com/McCreeMainer/urban-dictionary-app
 
 ## 80203
 
