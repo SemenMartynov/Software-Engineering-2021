@@ -431,6 +431,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Всё ОК, только `develop` указывает на коммит в `release/...` ветке. Чтоб такого не было, `relese` должен мерджиться в `master`, а потом обратно в `develop`.
             - Хорошей практикой для управления версиями было бы положить отдельный файл с версией в репо (либо читать `git tag`), и читать оттуда версию при сборке `JAR`-ника.
+    - HW2:
+        * Status: Done (Jan 18)
+        * Notes:
+            -
 - Tsaplin Ilya
     - https://github.com/TsaplinIA/Software_Engineering_Labs
     - HW1:
