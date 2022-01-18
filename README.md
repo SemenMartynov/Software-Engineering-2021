@@ -419,6 +419,11 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Ветки в реализацией функционала, оказались форкунты от `master` и слиты в `release`... Как это вообще пришло в голову?
             - на данный момент `develop` и `master` указывают на один коммит! А новый `release` просто висит в воздухе.
+    - HW2:
+        * Status: NOT Done (Jan 18)
+        * Notes:
+            - бейджы только для одной ветки
+            - в ветках какое-то месиво... Нужно разобраться что откуда форкается и куда мерджится
 - Филимонов Артем
     - https://github.com/BigArtemka/Kanye-Quote-And-Cat-Picture-API/
     - HW1:
