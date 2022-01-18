@@ -546,10 +546,9 @@ Feel free to ask all your questions on the course's telegram channel.
             - Разобраться с `gitconfig` (https://github.com/ADsty/temperature_convertor/commits/main)
             - Вижу попытку разобраться с `release`, но получился какой-то треш: мы форкается от `develop`, и мерджимся в `master` (при необходимости, обратно в `develop` тоже)
     - HW2:
-        * Status: NOT Done (Jan 17)
+        * Status: Done (Jan 18)
         * Notes:
-            - Всё те же проблемы с `.gitconfig`
-            - Отсутствует возможность запускать тесты руками
+            - Почему `develop` и `main` указывают на один коммит??..
 - Иванов Игорь
     - https://github.com/teacons/btc-eth-converter
     - HW1:
