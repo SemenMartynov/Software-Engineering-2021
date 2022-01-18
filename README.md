@@ -212,11 +212,9 @@ Feel free to ask all your questions on the course's telegram channel.
 - Чернышев Ярослав
     - https://github.com/Jar-Cher/SoftEngPrj
     - HW1:
-        * Status: NOT Done (Jan 17)
+        * Status: Done (Jan 18)
         * Notes:
-            - Сейчас вообще непонятно какой подход к управлению ветками используется: и `master` и `develop` указывают на один коммит
-            - IDE-специфичные файлы в репо, нужно убрать и закрыть `.gitignore`
-            - Часть issues слинковано с коммитами, а часть нет. К примеру, какой код решает эту задачу <https://github.com/Jar-Cher/SoftEngPrj/issues/2> ?
+            - что-то странное с тем, как изменения из `develop` попали в `master`, т.е. мердж как-то криво сделан, но сейчас хотя бы есть ветки.
 - Смирнов Никита
     - https://github.com/3oDoR/TemperatureConverter
     - HW1:
