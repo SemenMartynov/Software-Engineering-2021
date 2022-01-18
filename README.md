@@ -224,6 +224,11 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Стоило бы уже придерживаться TBD... `master` должен быть такой же долгоживущей веткой, как и `develop`. Теперь для второй лабы нужно всё сделать очень аккуратно, учитывая нынешнюю конфигурацию веток.
             - Исправить `gitconfig` (<https://github.com/3oDoR/TemperatureConverter/commits/develop>)
+    - HW2:
+        * Status: NOT Done (Jan 18)
+        * Notes:
+            - Судя по наличию ветки `main`, думаю что это git-flow. В `README.md` ни одного бейджика
+            - Всё те же проблемы с `.gitconfig`
 
 ## 80203
 
