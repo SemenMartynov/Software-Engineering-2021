@@ -406,6 +406,12 @@ Feel free to ask all your questions on the course's telegram channel.
             - В коммитах куча не связанных вещей (`a451581`), результат плохой декомпозиции задачи.
             - Ветка `develop` возникла из ниоткуда, после трёх мерджей в `master`
             - Ветка `develop` не должна мерджиться в `master`
+    - HW2:
+        * Status: NOT Done (Jan 18)
+        * Notes:
+            - не учтены замечания к первой работе, всё так же бинарник в репозитории и неработающий `Dockerfile`
+            - прямые коммиты в `master` и `develop`
+            - бейджы только для одной ветки
 - Трачук Илья
     - https://github.com/kuchartI/QuizApp
     - HW1:
