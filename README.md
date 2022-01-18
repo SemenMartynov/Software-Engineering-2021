@@ -209,6 +209,10 @@ Feel free to ask all your questions on the course's telegram channel.
         * Status: Done (Jan 17)
         * Notes:
             - Всё очень путанно (явно есть проблемы с тем, откуда форкались ветки), но хотя бы ветки есть.
+    - HW2:
+        * Status: Done (Jan 18)
+        * Notes:
+            - А где сами тесты? Кроме проверки на собираемость...
 - Чернышев Ярослав
     - https://github.com/Jar-Cher/SoftEngPrj
     - HW1:
