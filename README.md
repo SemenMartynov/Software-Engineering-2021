@@ -466,6 +466,11 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - `develop` не мержится в `master`
             - линковка коммитов и задач сделана правильно, но это не означает что `commit message` не должен больше содержать ничего
+    - HW2:
+        * Status: NOT Done (Jan 19)
+        * Notes:
+            - Нет бейджиков с результатами тестирования
+            - Нет возможности ручного запуска
 
 
 ## 80201
