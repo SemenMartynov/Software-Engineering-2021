@@ -79,6 +79,12 @@ Feel free to ask all your questions on the course's telegram channel.
         * Status: Done (Jan 17)
         * Notes:
             - Нельзя делать прямые коммиты в `master`
+- Кучмин Дмитрий
+    - https://github.com/diana-yusupova999/SoftwareEngineering
+    - HW1:
+        * Status: Done (Jan 24)
+        * Notes:
+            - Всё хорошо, только для коммита в `master` нужно от `develop` форкать отдельно `release` ветку
 
 ## 80202
 
