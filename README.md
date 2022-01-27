@@ -80,7 +80,7 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Нельзя делать прямые коммиты в `master`
 - Кучмин Дмитрий
-    - https://github.com/diana-yusupova999/SoftwareEngineering
+    - https://github.com/Resident0014/DegreesConverter
     - HW1:
         * Status: Done (Jan 24)
         * Notes:
