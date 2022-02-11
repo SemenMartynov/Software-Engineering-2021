@@ -475,6 +475,9 @@ Feel free to ask all your questions on the course's telegram channel.
 
 ## 80201
 
+- Назаров Дмитрий
+    - https://github.com/dmrnz/simple-expense-tracker-app
+    - 
 - Матвеец Андрей
     - https://github.com/Nekobitlz/case-converter
     - HW1:
