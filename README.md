@@ -599,3 +599,14 @@ Feel free to ask all your questions on the course's telegram channel.
         * Status: Done (Dec 20)
         * Notes:
             - Ветка `github_actions` форкнута от `master`, а должна быть от `develop`
+- Луцкевич Анна
+    - https://github.com/ferbushhh/Converter
+    - HW1:
+        * Status: Done (Jan 27)
+        * Notes:
+            - Нет файла лицензии
+            - Папку `.idea` спрятать за `.gitignore`
+            - Хорошей практикой для Python является использование `requirements.txt`
+            - Под каждую `issue` создаётся своя `feature` ветка, которая форкается от `develop` и мерджится обратно в `develop`
+            - `develop` не мерджится в `main`, для этого есть `release` ветка
+
