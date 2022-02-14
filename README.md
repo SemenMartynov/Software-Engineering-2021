@@ -85,6 +85,13 @@ Feel free to ask all your questions on the course's telegram channel.
         * Status: Done (Jan 24)
         * Notes:
             - Всё хорошо, только для коммита в `master` нужно от `develop` форкать отдельно `release` ветку
+- Гомонов Александр
+    - https://github.com/AlexandrXXL/TemperatureConverter
+    - HW1:
+        * Status: Done (Feb 14)
+        * Notes:
+            - Лучше автоматически линковать issues и commits, т.е. не закрывать их руками
+            - ...и в конце `release` ветка должна ещё вернуться в `develop`
 
 ## 80202
 
