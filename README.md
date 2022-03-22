@@ -485,7 +485,6 @@ Feel free to ask all your questions on the course's telegram channel.
             - Нет бейджиков с результатами тестирования
             - Нет возможности ручного запуска
 
-
 ## 80201
 
 - Матвеец Андрей
