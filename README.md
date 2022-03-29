@@ -616,6 +616,11 @@ Feel free to ask all your questions on the course's telegram channel.
             - Хорошей практикой для Python является использование `requirements.txt`
             - Под каждую `issue` создаётся своя `feature` ветка, которая форкается от `develop` и мерджится обратно в `develop`
             - `develop` не мерджится в `main`, для этого есть `release` ветка
+    - HW2:
+        * Status: Done (Mar 28)
+        * Notes:
+            - куча прямы коммитов в `master`, это нужно исправить
+            - нет бейджев с результатами тестирования
 - Назаров Дмитрий
     - https://github.com/dmrnz/simple-expense-tracker-app
     - HW1:
@@ -626,5 +631,13 @@ Feel free to ask all your questions on the course's telegram channel.
         * Status: Done (Feb 11)
         * Notes:
             - Всё гуд, но я бы придерживался английского языка при составлении сообщений к коммитам
-
-
+- Киселев Иван
+    - https://github.com/Kiselev777/FileFtpClient
+    - HW2:
+        * Status: Done (Mar 21)
+        * Notes:
+            - 
+    - HW2:
+        * Status: Done (Mar 21)
+        * Notes:
+            - 
