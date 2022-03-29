@@ -260,7 +260,11 @@ Feel free to ask all your questions on the course's telegram channel.
     - HW1:
         * Status: Done (Jan 18)
         * Notes:
-            - 
+            * 
+    - HW2:
+        * Status: Done (Mar 29)
+        * Notes:
+          - 
 - Самсонов Сергей
     - https://github.com/Ksardas178/SE_labs_v2
     - HW1:
