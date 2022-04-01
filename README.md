@@ -92,6 +92,14 @@ Feel free to ask all your questions on the course's telegram channel.
         * Notes:
             - Лучше автоматически линковать issues и commits, т.е. не закрывать их руками
             - ...и в конце `release` ветка должна ещё вернуться в `develop`
+- Пешков Даниил
+    - https://github.com/daniilpeshkov/OPI_labs
+    - HW1:
+        * Status: NOT Done (Mar 30)
+        * Notes:
+            - Не выполнены требования по issues
+            - Нет линковки между commits и issues
+            - Невозможно определить какая модель ветвления используется
 
 ## 80202
 
